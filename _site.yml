@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "SAP Lab Courses"
 navbar:
-  title: "MyLabJournal"
+  title: "SAP Lab Courses"
   left:
     - text: "Home"
       href: index.html
