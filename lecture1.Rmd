@@ -237,3 +237,5 @@ The distance completed by one complete cycle of the sound wave is called its **w
 <p align="center">
   <img src="images/wavelength.png">
 </p>
+
+### Velocity
