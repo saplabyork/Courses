@@ -1,5 +1,5 @@
 ---
-title: "LING 2200"
+title: "The Nature of Sound"
 output:
   html_document:
     theme: paper
@@ -25,11 +25,7 @@ Below are notes for the weekly lectures in LING 2200 (Introduction to Speech and
 
 ***
 
-# Lecture 1: The Nature of Sound
-
-***
-
-## The Speech Chain
+# The Speech Chain
 The speech chain represents the nature of communicating a linguistic message via the vocal-audition apparatus.
 
 <p align="center">
@@ -39,14 +35,14 @@ The speech chain represents the nature of communicating a linguistic message via
 
 In this course, we will be examining in great detail the nature of:
 
-* Acoustics: the physical properties of sound
-* Audition: the process of sound transduction in the ear
-* Production: the physical process of producing sounds
-* Perception: the psychological process of speech reception
+* **Acoustics**: the physical properties of sound
+* **Audition**: the process of sound transduction in the ear
+* **Production**: the physical process of producing sounds
+* **Perception**: the psychological process of speech reception
 
 The course will not be immediately concerned with linguistic representations and abstractions, topics which will be covered by other courses offered in the program like Phonetics (LING 2110), Acoustic Phonetics (LING 4220) and Phonology (LING 2120 and 3120).
 
-## Physics basic terms
+# Basic definitions
 
 In order for us to begin understanding the nature of speech sounds, we must familiarize ourselves with the science behind what makes sounds, in general. Speech is a **physical phenomenon** and as such, we must understand basic concepts of physics as it provides a bedrock of foundational elements for any sort of description and analysis of speech.
 
@@ -73,7 +69,7 @@ The physical concept of **pressure** is particularly important for our understan
 
 Pressure **differentials**, or the change in pressure over time across some area, will play a very important role in our understanding of how we hear and produce sounds.
 
-## Sound
+# Sound
 
 Sound is essentially changes in air pressure that results from some sort of disturbance, like the smacking of a table top or the vibrating of vocal folds. For speech sounds, tiny changes in pressure are a result of air molecules beign set in motion by the movement of the vocal folds. These changes in air pressure between air molecules end up at the listener's ear. This animated gif schematizes the general idea of some movement (the hand moving up) setting in to motion the rope. The change in air pressure is represented by the wave in the rope, which moves and ultimately reaches a target (or the listener's ear).
 ![](https://ds055uzetaobb.cloudfront.net/uploads/RemWkGv8Lh-rope1.gif)
@@ -83,7 +79,7 @@ Molecules of air move in a random pattern, called [Brownian motion](https://en.w
   <img width="200" height="200" src="https://i.pinimg.com/originals/15/38/66/153866beb99a7ec456ae1e6b0d643aea.gif">
 </p>
 
-## Airflow
+# Airflow
 
 Air moves from an area high pressure to an area of low pressure in order to equalize → driving pressure. Air only moves when there is a pressure differential between the areas. If there is no difference in pressure between the two areas, there is no airflow.
 
@@ -92,6 +88,7 @@ What is flow?→ the movement of air, measured in volume/time (e.g., *l/s*). The
 1. **Laminar flow**, where there is no obstruction of molecules (this is really not relevant for speech purposes)
 2. **Turbulent flow**, where something obstructs the flow (think, ridges in the mouth, your lips, teeth, etc.). Turbulent flow results in small pressure changes around the obstruction. 
 
+# Pressure
 ## Boyle's Law
 
 Another important concept for our understanding of speech processes is that formulated by the English polymath, [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle). Boyle's law characterized the relationship between the pressure of a gas and the volume of its container.
@@ -132,7 +129,7 @@ As M~1~ moves away from M~2~ there is decreasing pressure (rarefaction)
 
 Here is a nice [video demonstration](https://www.youtube.com/watch?v=bYoTRx6gGX0) and explanation of compression and rarefaction of air molecules.
 
-### Why do molecules keep vibrating?
+## Why do molecules keep vibrating?
 
 Once molecules have been set into motion, three forces keep them moving back and forth before they eventually stop (remember Newton's Laws?)
 
@@ -140,7 +137,10 @@ Once molecules have been set into motion, three forces keep them moving back and
 2. **Inertia**: the resistance of an object to change in state of motion or rest
 3. **Friction** : the force that opposes motion
 
-# Lecture 2: Tones
+<p align="center">
+  <img src="images/elasticityinertia.png">
+</p>
+
 ***
 
 # Lecture 3
