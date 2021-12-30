@@ -129,7 +129,7 @@ As M~1~ moves away from M~2~ there is decreasing pressure (rarefaction)
 
 Here is a nice [video demonstration](https://www.youtube.com/watch?v=bYoTRx6gGX0) and explanation of compression and rarefaction of air molecules.
 
-## Why do molecules keep vibrating?
+## Molucule movement?
 
 Once molecules have been set into motion, three forces keep them moving back and forth before they eventually stop (remember Newton's Laws?)
 
@@ -141,8 +141,99 @@ Once molecules have been set into motion, three forces keep them moving back and
   <img src="images/elasticityinertia.png">
 </p>
 
-***
+# Simple harmonic motion
+Simple harmonic motion (SHM) results when the restoring force on an object is proportional to the displacement from equilibrium in the opposite direction. SHM is a special type of periodic motion (we'll discuss periodicity below) that refers to the a back and forth motion that repeats itself at regular intervals.
 
-# Lecture 3
-***
+With SHM, there is acceleration of an object through the "zero point" or equilibrium and deceleration at the endpoints of the movement. In the animation below, the weight's equilibrium point (or the spring's natural length) would be represented by y=0.
 
+<p align="center">
+  <img src="images/pendulumshm.gif">
+</p>
+
+## Frequency
+One back and forth movement through the equilibriam point constitutes one *cycle* of vibration.When describing sound, these cycles refer to the movement of air molecules moving back and forth. When the molecule is set into motion (from some disturbance, like the movement of the vocal folds or the slamming of a door), it is propelled, reaches some maximum, travels back through its original starting point (equilibrium) and proceeds again in the direction opposite the one it initially travelled, then back again to equilibrium (one complete cycle). 
+
+This movement results in pressure changes. A cycle when describing sound is:
+
+> One cycle = increase in P from P~atm~ (compression), a decrease in P below to P~atm~ (rarefaction), then increase back to equilibrium
+> The number of cycles completed in one second is called the **frequency** and is measured in Hertz (Hz)
+
+For speech, we very often encounter frequencies in the thousands, so instead of writing, say, 5600 Hz, we might change the units to kilohertz (1000 Hz) giving us 5.6kHz.
+
+[Here](https://youtu.be/pANIvSh2r2A) is a strobe video of a tuning fork. The tines (or arms) of the fork vibrate in unison, moving away from equilibrium, reaching a maximum displacement, then back toward the center and beyond, then back again. 
+
+## Period
+
+> The **period** of a waveform is the time it takes for one cycle to occur
+
+Period is inversly proportional to frequency. So:
+$$F = 1/t ; t = 1/F$$
+If the frequency is 100Hz (or 100 cycles per second), then the period is 1/100 or 0.01 seconds. Period is symbolized as *t*.
+
+Here's a little practice question:
+If *t* = 0.003, then what is the frequency?
+<!-- Answer options go here -->
+<div class="radio">
+  <label>
+    <input type="radio" name="question01" id="opt1" value="33kHz" onchange="check_answer()">
+    33kHz 
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question01" id="opt2" value="300Hz" onclick="check_answer()">
+    300Hz
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question01" id="opt3" value="333kHz" onclick="check_answer()">
+    333kHz 
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="question01" id="opt3" value="333Hz" onclick="check_answer()">
+    333Hz 
+  </label>
+</div>
+<!-- Check answer button -->
+<div>
+<button class="btn btn-primary" type="button" onclick="check_answer()" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Show / Hide result</button>
+</div>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body" id="answerFeedback">
+    The answer selected was ...
+  </div>
+</div>
+
+<!-- Code to update answer feedback -->
+<script type="text/javascript">
+function check_answer()
+{
+    var radioButtons = document.getElementsByName("question01");
+    document.getElementById("answerFeedback").innerHTML = "Try selecting an answer!!";
+    for(var i = 0; i < radioButtons.length; i++)
+    {
+        if(radioButtons[i].checked == true)
+        {
+            var selectedAnswer = "Your selected answer was " + radioButtons[i].value;
+            <!-- feedback for correct / incorrect response -->
+            var feedback = "Not quite! Have another go." 
+            if(radioButtons[i].value == "333Hz") {
+              feedback = "Yup, good job! 1/0.003 = 333"
+            }
+            document.getElementById("answerFeedback").innerHTML = selectedAnswer + "<br>" + feedback;
+            return true;
+        }
+    }
+}
+</script>
+\
+
+## Wavelength
+The distance completed by one complete cycle of the sound wave is called its **wavelength (λ)**. Wavelength is given in *m* or *cm*. The higher the F, the shorter the period (remember F=1/t) and wavelength. Conversely, the lower the F, the longer the period and wavelength.
+
+<p align="center">
+  <img src="images/wavelength.png">
+</p>
