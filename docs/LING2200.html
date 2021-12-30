@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -313,7 +313,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">SAP Lab Courses</a>
+      <a class="navbar-brand" href="index.html">LING2200</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -321,10 +321,13 @@ div.tocify {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="LING2200.html">LING 2200</a>
+  <a href="lecture1.html">Lecture 1</a>
 </li>
 <li>
-  <a href="Links.html">Links</a>
+  <a href="lecture2.html">Lecture 2</a>
+</li>
+<li>
+  <a href="lecture3.html">Lecture 3</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -343,116 +346,129 @@ div.tocify {
 </div>
 
 
-<p>Some stuff about the course. A link to the syllabus. Email address.</p>
-<div id="lecture-1" class="section level1">
-<h1>Lecture 1</h1>
-<p>All of the first lecture.</p>
-<div id="second-level-header" class="section level2">
-<h2>Second level header</h2>
-<p>You can add more headers by adding more hashtags. These won’t be put into the table of contents</p>
-<div id="third-level-header" class="section level3">
-<h3>third level header</h3>
-<p>Here’s an even lower level header</p>
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+<p>Below are notes for the weekly lectures in LING 2200 (Introduction to Speech and Language Science) at York University. They are meant to accompany lecture slides available on <a href="eClass.yorku.ca">eClass</a>. They will sometimes provide you with supplementary information and practice problems applying the concepts we discuss in class.</p>
+<hr />
+<div id="lecture-1-the-nature-of-sound" class="section level1">
+<h1>Lecture 1: The Nature of Sound</h1>
+<hr />
+<div id="the-speech-chain" class="section level2">
+<h2>The Speech Chain</h2>
+<p>The speech chain represents the nature of communicating a linguistic message via the vocal-audition apparatus.</p>
+<p align="center">
+<img src="images/speech-chain.jpg">
+</p>
+<p>In this course, we will be examining in great detail the nature of:</p>
+<ul>
+<li>Acoustics: the physical properties of sound</li>
+<li>Audition: the process of sound transduction in the ear</li>
+<li>Production: the physical process of producing sounds</li>
+<li>Perception: the psychological process of speech reception</li>
+</ul>
+<p>The course will not be immediately concerned with linguistic representations and abstractions, topics which will be covered by other courses offered in the program like Phonetics (LING 2110), Acoustic Phonetics (LING 4220) and Phonology (LING 2120 and 3120).</p>
+</div>
+<div id="physics-basic-terms" class="section level2">
+<h2>Physics basic terms</h2>
+<p>In order for us to begin understanding the nature of speech sounds, we must familiarize ourselves with the science behind what makes sounds, in general. Speech is a <strong>physical phenomenon</strong> and as such, we must understand basic concepts of physics as it provides a bedrock of foundational elements for any sort of description and analysis of speech.</p>
+<blockquote>
+<p><strong>Mass (m)</strong>: the amount of matter in an object, <em>measured in grams (g) or kilograms (kg)</em><br />
+<strong>Force (F)</strong>: an influence on an object that causes a change in speed, direction, or shape. <em>Measured in newtons</em><br />
+<strong>Weight</strong>: the force of gravity on an object<br />
+<strong>Volume</strong>: the quantity of space occupied by a liquid, gas, or solid object. <em>Units are liters (l) or cubic centimeters (cc)</em><br />
+<strong>Density</strong>: mass/volume. *Units are g/cm<sup>3</sup>, kg/m<sup>3</sup>, g/ml<br />
+<strong>Speed</strong>: distance travelled in a given time. Units are m/s<br />
+<strong>Velocity</strong>: same as speed but a direction of movement is also specified<br />
+<strong>Inertia</strong>: the resistance of an object to change in its motion or rest. Units are grams(g)<br />
+<strong>Acceleration (a)</strong>: when velocity changes as a function of time. Acceleration is directly proportional to force and inversely proportional to mass <span class="math display">\[ F=ma \]</span> <span class="math display">\[ a=F/m \]</span><br />
+</p>
+</blockquote>
+<p>The physical concept of <strong>pressure</strong> is particularly important for our understanding of speech processes. We will rely on our undersatnding of pressure to explain both audition as well as the production of speech sounds.<br />
+</p>
+<blockquote>
+<p><strong>Pressure</strong>: force acting perpendicularly on an area. Unit is pascals (Pa), cm of H<sub>2</sub>0 (amount of pressure to displace column of water one cm). Pressure can also be described as the ratio of Force to Area.<br />
+</p>
+</blockquote>
+<p align="center">
+<img width="300" height="240" src="images/pressure.png">
+</p>
+<blockquote>
+<p>P<sub>atm</sub> is atmospheric pressure and is generally measured at sea level = 101.325 kPa ~ 14.7 psi (pounds per square inch). The atmosphere (right now) is exerting 14.7 lbs of pressure per square inch of your body right now! Pressures above and below P<sub>atm</sub> are called <em>positive</em> and <em>negative</em> pressure, respectively.</p>
+</blockquote>
+<p>Pressure <strong>differentials</strong>, or the change in pressure over time across some area, will play a very important role in our understanding of how we hear and produce sounds.</p>
+</div>
+<div id="sound" class="section level2">
+<h2>Sound</h2>
+<p>Sound is essentially changes in air pressure that results from some sort of disturbance, like the smacking of a table top or the vibrating of vocal folds. For speech sounds, tiny changes in pressure are a result of air molecules beign set in motion by the movement of the vocal folds. These changes in air pressure between air molecules end up at the listener’s ear. This animated gif schematizes the general idea of some movement (the hand moving up) setting in to motion the rope. The change in air pressure is represented by the wave in the rope, which moves and ultimately reaches a target (or the listener’s ear). <img src="https://ds055uzetaobb.cloudfront.net/uploads/RemWkGv8Lh-rope1.gif" /> Molecules of air move in a random pattern, called <a href="https://en.wikipedia.org/wiki/Brownian_motion">Brownian motion</a> and collide with each other and other objects at a relatively constant pressure.</p>
+<p align="center">
+<img width="200" height="200" src="https://i.pinimg.com/originals/15/38/66/153866beb99a7ec456ae1e6b0d643aea.gif">
+</p>
+</div>
+<div id="airflow" class="section level2">
+<h2>Airflow</h2>
+<p>Air moves from an area high pressure to an area of low pressure in order to equalize → driving pressure. Air only moves when there is a pressure differential between the areas. If there is no difference in pressure between the two areas, there is no airflow.</p>
+<p>What is flow?→ the movement of air, measured in volume/time (e.g., <em>l/s</em>). The rate of flow is called <strong>volume velocity</strong>. There are two types of air flow</p>
+<ol style="list-style-type: decimal">
+<li><strong>Laminar flow</strong>, where there is no obstruction of molecules (this is really not relevant for speech purposes)</li>
+<li><strong>Turbulent flow</strong>, where something obstructs the flow (think, ridges in the mouth, your lips, teeth, etc.). Turbulent flow results in small pressure changes around the obstruction.</li>
+</ol>
+</div>
+<div id="boyles-law" class="section level2">
+<h2>Boyle’s Law</h2>
+<p>Another important concept for our understanding of speech processes is that formulated by the English polymath, <a href="https://en.wikipedia.org/wiki/Robert_Boyle">Robert Boyle</a>. Boyle’s law characterized the relationship between the pressure of a gas and the volume of its container.</p>
+<blockquote>
+<p>Boyle’s Law says that that pressure and volume are inversely related. The bigger the container, the lower the pressure; the smaller the container, the higher the pressure of the gas within.</p>
+</blockquote>
+<p align="center">
+<img src="https://i.makeagif.com/media/9-27-2015/TnlTsV.gif">
+</p>
+<p>For our purposes, it’s useful to imagine the relationship between two containers, or the same container at different points in time. In the equation below, imagine a fixed mass of gas (ok, air). The relationship between the pressure of that gas and the volume of the container is constant. So increasing the volume would mean a decrease in pressure (so long as the mass of the gas is the same and the temperature doesn’t change).</p>
+<blockquote>
+<p><span class="math display">\[ P_1 V_1~ = P_2 V_2 \]</span></p>
+</blockquote>
+<p align="center">
+<img width="300" height="300" src="images/boylelaw.gif">
+</p>
+<p>Here’s a quiz:</p>
+<p>We know that there are air molecule pressure changes, cumulatively, involved when the volume of the container shrinks or expands, but what exactly happens between individual air molecules?</p>
+</div>
+<div id="compressionrarefaction" class="section level2">
+<h2>Compression/Rarefaction</h2>
+<blockquote>
+<p>When air molecules collide there is a moment of high pressure. This is called <strong>compression</strong>. The idea here is simple and can be roughly analogized to the Boyle’s law examples above. Imagine the plunger and bottom wall of the piston are air molecules. As they approach each other (or are compressed), pressure between them increases.</p>
+</blockquote>
+<p>M<sub>1</sub>→→→→M<sub>1</sub> M<sub>2</sub><br />
+As M<sub>1</sub> approaches M<sub>2</sub> there is increasing pressure (compression)</p>
+<p align="center">
+<img height="150" width="500" src="images/compression.gif">
+</p>
+<blockquote>
+<p>When the molecule “bounces” back and overshoots its original position, it causes an area of low air density, resulting in low pressure → rarefaction</p>
+</blockquote>
+<p>M<sub>1</sub> ← M<sub>1</sub> ←←← M<sub>2</sub><br />
+As M<sub>1</sub> moves away from M<sub>2</sub> there is decreasing pressure (rarefaction)</p>
+<p>Here is a nice <a href="https://www.youtube.com/watch?v=bYoTRx6gGX0">video demonstration</a> and explanation of compression and rarefaction of air molecules.</p>
+<div id="why-do-molecules-keep-vibrating" class="section level3">
+<h3>Why do molecules keep vibrating?</h3>
+<p>Once molecules have been set into motion, three forces keep them moving back and forth before they eventually stop (remember Newton’s Laws?)</p>
+<ol style="list-style-type: decimal">
+<li><strong>Elasticity</strong>: the restoring force that allows an object to return to its original size, form, location, and shape having been displaced, stretched, pulled, etc.→ think a stretched rubber band, when released returns to it’s natural size and shape</li>
+<li><strong>Inertia</strong>: the resistance of an object to change in state of motion or rest</li>
+<li><strong>Friction</strong> : the force that opposes motion</li>
+</ol>
 </div>
 </div>
 </div>
-<div id="lecture-2" class="section level1">
-<h1>Lecture 2</h1>
-<p>2018 | 7 | 23 Last compiled: 2021-12-27</p>
-<p>I’m writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom</p>
+<div id="lecture-2-tones" class="section level1">
+<h1>Lecture 2: Tones</h1>
+<hr />
 </div>
 <div id="lecture-3" class="section level1">
 <h1>Lecture 3</h1>
-<p>So far this is just a blog where you can write in plain text and serve your writing to a webpage. One of the main purposes of this lab journal is to record your progress learning R. The reason I am asking you to use this process is because you can both make a website, and a lab journal, and learn R all in R-studio. This makes everything really convenient and in the sam place.</p>
-<p>So, let’s say you are learning how to make a histogram in R. For example, maybe you want to sample 100 numbers from a normal distribution with mean = 0, and standard deviation =1, and then you want to plot a histogram. You can do this right here by using an r code block, like this:</p>
-<pre class="r"><code>samples &lt;- rnorm(100, mean=0, sd=1)
-hist(samples)</code></pre>
-<p><img src="LING2200_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<p>When you knit this R Markdown document, you will see that the histogram is printed to the page, along with the R code. This document can be set up to hide the R code in the webpage, just delete the comment (hashtag), from the cold folding option in the yaml header up top. For purposes of letting yourself see the code, and me see the code, best to keep it the way that it is. You learn all of these things and more can be customized in each R code block.</p>
-</div>
-<div id="lecture-4" class="section level1">
-<h1>Lecture 4</h1>
-<p>Use this lab journal to record what you do in R. This way I will be able to see what you are doing and help you along the way. You will also be creating a repository of all the things you do. You can make posts about everything. Learning specific things in R (project unrelated), and doing things for the project that we will discuss at the beginning of the Fall semester. You can get started now by fiddling around with googling things, and trying stuff out in R. I’ve placed some helpful starting links in the links page on this website</p>
-</div>
-<div id="lecture-5" class="section level1">
-<h1>Lecture 5</h1>
-<p>It’s hard to learn programming when you don’t have specific problems that you are trying to solve. Everything just seems abstract.</p>
-<p>I wrote an <a href="https://crumplab.github.io/programmingforpsych/">introductory programming book that introduces R</a>, and gives some <a href="https://crumplab.github.io/programmingforpsych/programming-challenges-i-learning-the-fundamentals.html">concrete problems for you to solve</a>.</p>
-<p>To get the hang of journaling and solving the problems to learn programming, my suggestion is that you use this .Rmd file to solve the problems. It would look like this:</p>
-</div>
-<div id="problem-1" class="section level1">
-<h1>Problem 1</h1>
-<p>Do simple math with numbers, addition, subtraction, multiplication, division</p>
-<pre class="r"><code>1+2</code></pre>
-<pre><code>## [1] 3</code></pre>
-<pre class="r"><code>2*5</code></pre>
-<pre><code>## [1] 10</code></pre>
-<pre class="r"><code>5/3</code></pre>
-<pre><code>## [1] 1.666667</code></pre>
-<pre class="r"><code>(1+6+4)/5</code></pre>
-<pre><code>## [1] 2.2</code></pre>
-</div>
-<div id="problem-2" class="section level1">
-<h1>Problem 2</h1>
-<p>Put numbers into variables, do simple math on the variables</p>
-<pre class="r"><code>a&lt;-1
-b&lt;-2
-a+b</code></pre>
-<pre><code>## [1] 3</code></pre>
-<pre class="r"><code>d&lt;-c(1,2,3)
-e&lt;-c(5,6,7)
-d+e</code></pre>
-<pre><code>## [1]  6  8 10</code></pre>
-<pre class="r"><code>d*e</code></pre>
-<pre><code>## [1]  5 12 21</code></pre>
-<pre class="r"><code>d/e</code></pre>
-<pre><code>## [1] 0.2000000 0.3333333 0.4285714</code></pre>
-</div>
-<div id="problem-3" class="section level1">
-<h1>Problem 3</h1>
-<p>Write code that will place the numbers 1 to 100 separately into a variable using for loop. Then, again using the seq function.</p>
-<pre class="r"><code># for loop solution
-# i becomes the number 1 to 100 at each step of the loop
-
-
-a &lt;- length(100) # make empty variable, set length to 100
-for (i in 1:100){
-  a[i] &lt;-i #assigns the number in i, to the ith index of a
-}
-
-print(a)</code></pre>
-<pre><code>##   [1]   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
-##  [19]  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
-##  [37]  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
-##  [55]  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
-##  [73]  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
-##  [91]  91  92  93  94  95  96  97  98  99 100</code></pre>
-<pre class="r"><code># for loop solution #2
-
-a&lt;-c() #create empty variable using combine command
-for (i in 1:100){
-  a&lt;-c(a,i) # keeps combining a with itself and the new number in i
-}
-print(a)</code></pre>
-<pre><code>##   [1]   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
-##  [19]  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
-##  [37]  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
-##  [55]  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
-##  [73]  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
-##  [91]  91  92  93  94  95  96  97  98  99 100</code></pre>
-<pre class="r"><code># seq solution
-a &lt;- seq(1,100,1) # look up help for seq using ?seq() in console
-print(a)</code></pre>
-<pre><code>##   [1]   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
-##  [19]  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
-##  [37]  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
-##  [55]  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
-##  [73]  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
-##  [91]  91  92  93  94  95  96  97  98  99 100</code></pre>
-</div>
-<div id="replace-this-with-problem-4" class="section level1">
-<h1>Replace this with problem 4</h1>
-<p>And keep going. Try to solve the problems with different scripts that provide the same solution. Good luck, Happy coding.</p>
+<hr />
 </div>
 
 
@@ -504,7 +520,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

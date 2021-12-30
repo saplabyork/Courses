@@ -2,124 +2,147 @@
 title: "LING 2200"
 output:
   html_document:
+    theme: paper
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 1
+    toc_depth: 2
     #code_folding: hide
 ---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+options(repos = list(CRAN="http://cran.rstudio.com/"))
 ```
 
-Some stuff about the course.
-A link to the syllabus.
-Email address.
+Below are notes for the weekly lectures in LING 2200 (Introduction to Speech and Language Science) at York University. They are meant to accompany lecture slides available on [eClass](eClass.yorku.ca). They will sometimes provide you with supplementary information and practice problems applying the concepts we discuss in class.
 
-# Lecture 1
+***
 
-All of the first lecture.  
+# Lecture 1: The Nature of Sound
 
-## Second level header
+***
 
-You can add more headers by adding more hashtags. These won't be put into the table of contents
+## The Speech Chain
+The speech chain represents the nature of communicating a linguistic message via the vocal-audition apparatus.
 
-### third level header
+<p align="center">
+  <img src="images/speech-chain.jpg">
+</p>
 
-Here's an even lower level header
 
-# Lecture 2
+In this course, we will be examining in great detail the nature of:
 
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
+* Acoustics: the physical properties of sound
+* Audition: the process of sound transduction in the ear
+* Production: the physical process of producing sounds
+* Perception: the psychological process of speech reception
 
-I'm writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom
+The course will not be immediately concerned with linguistic representations and abstractions, topics which will be covered by other courses offered in the program like Phonetics (LING 2110), Acoustic Phonetics (LING 4220) and Phonology (LING 2120 and 3120).
+
+## Physics basic terms
+
+In order for us to begin understanding the nature of speech sounds, we must familiarize ourselves with the science behind what makes sounds, in general. Speech is a **physical phenomenon** and as such, we must understand basic concepts of physics as it provides a bedrock of foundational elements for any sort of description and analysis of speech.
+
+>**Mass (m)**: the amount of matter in an object, *measured in grams (g) or kilograms (kg)*\
+>**Force (F)**: an influence on an object that causes a change in speed, direction, or shape. *Measured in newtons*\
+>**Weight**: the force of gravity on an object\
+>**Volume**: the quantity of space occupied by a liquid, gas, or solid object. *Units are
+liters (l) or cubic centimeters (cc)*\
+>**Density**: mass/volume. *Units are g/cm^3^, kg/m^3^, g/ml\
+>**Speed**: distance travelled in a given time. Units are m/s \
+>**Velocity**: same as speed but a direction of movement is also specified\
+>**Inertia**: the resistance of an object to change in its motion or rest. Units are grams(g)\
+>**Acceleration (a)**: when velocity changes as a function of time. Acceleration is directly proportional to force and inversely proportional to mass $$ F=ma $$ $$ a=F/m $$ \
+
+The physical concept of **pressure** is particularly important for our understanding of speech processes. We will rely on our undersatnding of pressure to explain both audition as well as the production of speech sounds.\
+
+>**Pressure**: force acting perpendicularly on an area. Unit is pascals (Pa), cm of H~2~0 (amount of pressure to displace column of water one cm). Pressure can also be described as the ratio of Force to Area.\
+
+<p align="center">
+  <img width="300" height="240" src="images/pressure.png">
+</p>
+
+>P~atm~ is atmospheric pressure and is generally measured at sea level = 101.325 kPa ~ 14.7 psi (pounds per square inch). The atmosphere (right now) is exerting 14.7 lbs of pressure per square inch of your body right now! Pressures above and below P~atm~ are called *positive* and *negative* pressure, respectively.
+
+Pressure **differentials**, or the change in pressure over time across some area, will play a very important role in our understanding of how we hear and produce sounds.
+
+## Sound
+
+Sound is essentially changes in air pressure that results from some sort of disturbance, like the smacking of a table top or the vibrating of vocal folds. For speech sounds, tiny changes in pressure are a result of air molecules beign set in motion by the movement of the vocal folds. These changes in air pressure between air molecules end up at the listener's ear. This animated gif schematizes the general idea of some movement (the hand moving up) setting in to motion the rope. The change in air pressure is represented by the wave in the rope, which moves and ultimately reaches a target (or the listener's ear).
+![](https://ds055uzetaobb.cloudfront.net/uploads/RemWkGv8Lh-rope1.gif)
+Molecules of air move in a random pattern, called [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) and collide with each other and other objects at a relatively constant pressure.
+
+<p align="center">
+  <img width="200" height="200" src="https://i.pinimg.com/originals/15/38/66/153866beb99a7ec456ae1e6b0d643aea.gif">
+</p>
+
+## Airflow
+
+Air moves from an area high pressure to an area of low pressure in order to equalize → driving pressure. Air only moves when there is a pressure differential between the areas. If there is no difference in pressure between the two areas, there is no airflow.
+
+What is flow?→ the movement of air, measured in volume/time (e.g., *l/s*). The rate of flow is called **volume velocity**. There are two types of air flow
+
+1. **Laminar flow**, where there is no obstruction of molecules (this is really not relevant for speech purposes)
+2. **Turbulent flow**, where something obstructs the flow (think, ridges in the mouth, your lips, teeth, etc.). Turbulent flow results in small pressure changes around the obstruction. 
+
+## Boyle's Law
+
+Another important concept for our understanding of speech processes is that formulated by the English polymath, [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle). Boyle's law characterized the relationship between the pressure of a gas and the volume of its container.
+
+> Boyle's Law says that that pressure and volume are inversely related. The bigger the container, the lower the pressure; the smaller the container, the higher the pressure of the gas within. 
+
+<p align="center">
+  <img src="https://i.makeagif.com/media/9-27-2015/TnlTsV.gif">
+</p>
+
+For our purposes, it's useful to imagine the relationship between two containers, or the same container at different points in time. In the equation below, imagine a fixed mass of gas (ok, air). The relationship between the pressure of that gas and the volume of the container is constant. So increasing the volume would mean a decrease in pressure (so long as the mass of the gas is the same and the temperature doesn't change).
+
+> $$ P_1 V_1~ = P_2 V_2 $$ 
+
+<p align="center">
+  <img width="300" height="300" src="images/boylelaw.gif">
+</p>
+
+Here's a quiz:
+
+We know that there are air molecule pressure changes, cumulatively, involved when the volume of the container shrinks or expands, but what exactly happens between individual air molecules?
+
+## Compression/Rarefaction
+
+> When air molecules collide there is a moment of high pressure. This is called **compression**. The idea here is simple and can be roughly analogized to the Boyle's law examples above. Imagine the plunger and bottom wall of the piston are air molecules. As they approach each other (or are compressed), pressure between them increases.
+
+M~1~&rarr;&rarr;&rarr;&rarr;M~1~ M~2~\
+As M~1~ approaches M~2~ there is increasing pressure (compression)
+
+<p align="center">
+  <img height="150" width="500" src="images/compression.gif">
+</p>
+
+> When the molecule “bounces” back and overshoots its original position, it causes an area of low air density, resulting in low pressure → rarefaction
+
+M~1~ &larr; M~1~ &larr;&larr;&larr; M~2~\
+As M~1~ moves away from M~2~ there is decreasing pressure (rarefaction)
+
+Here is a nice [video demonstration](https://www.youtube.com/watch?v=bYoTRx6gGX0) and explanation of compression and rarefaction of air molecules.
+
+### Why do molecules keep vibrating?
+
+Once molecules have been set into motion, three forces keep them moving back and forth before they eventually stop (remember Newton's Laws?)
+
+1. **Elasticity**: the restoring force that allows an object to return to its original size, form, location, and shape having been displaced, stretched, pulled, etc.&rarr; think a stretched rubber band, when released returns to it's natural size and shape
+2. **Inertia**: the resistance of an object to change in state of motion or rest
+3. **Friction** : the force that opposes motion
+
+# Lecture 2: Tones
+***
 
 # Lecture 3
+***
 
-So far this is just a blog where you can write in plain text and serve your writing to a webpage. One of the main purposes of this lab journal is to record your progress learning R. The reason I am asking you to use this process is because you can both make a website, and a lab journal, and learn R all in R-studio. This makes everything really convenient and in the sam place. 
-
-So, let's say you are learning how to make a histogram in R. For example, maybe you want to sample 100 numbers from a normal distribution with mean = 0, and standard deviation =1, and then you want to plot a histogram. You can do this right here by using an r code block, like this:
-
-```{r}
-samples <- rnorm(100, mean=0, sd=1)
-hist(samples)
-```
-
-When you knit this R Markdown document, you will see that the histogram is printed to the page, along with the R code. This document can be set up to hide the R code in the webpage, just delete the comment (hashtag), from the cold folding option in the yaml header up top. For purposes of letting yourself see the code, and me see the code, best to keep it the way that it is. You learn all of these things and more can be customized in each R code block.
-
-# Lecture 4
-
-Use this lab journal to record what you do in R. This way I will be able to see what you are doing and help you along the way. You will also be creating a repository of all the things you do. You can make posts about everything. Learning specific things in R (project unrelated), and doing things for the project that we will discuss at the beginning of the Fall semester. You can get started now by fiddling around with googling things, and trying stuff out in R. I've placed some helpful starting links in the links page on this website
-
-# Lecture 5
-
-It's hard to learn programming when you don't have specific problems that you are trying to solve. Everything just seems abstract.
-
-I wrote an [introductory programming book that introduces R](https://crumplab.github.io/programmingforpsych/), and gives some [concrete problems for you to solve](https://crumplab.github.io/programmingforpsych/programming-challenges-i-learning-the-fundamentals.html). 
-
-To get the hang of journaling and solving the problems to learn programming, my suggestion is that you use this .Rmd file to solve the problems. It would look like this:
-
-# Problem 1
-
-Do simple math with numbers, addition, subtraction, multiplication, division
-
-```{r}
-1+2
-2*5
-5/3
-(1+6+4)/5
-
-```
-
-# Problem 2
-
-Put numbers into variables, do simple math on the variables
-
-```{r}
-a<-1
-b<-2
-a+b
-
-d<-c(1,2,3)
-e<-c(5,6,7)
-d+e
-d*e
-d/e
-
-```
-
-# Problem 3
-
-Write code that will place the numbers 1 to 100 separately into a variable using for loop. Then, again using the seq function.
-
-```{r}
-# for loop solution
-# i becomes the number 1 to 100 at each step of the loop
-
-
-a <- length(100) # make empty variable, set length to 100
-for (i in 1:100){
-  a[i] <-i #assigns the number in i, to the ith index of a
-}
-
-print(a)
-
-# for loop solution #2
-
-a<-c() #create empty variable using combine command
-for (i in 1:100){
-  a<-c(a,i) # keeps combining a with itself and the new number in i
-}
-print(a)
-
-# seq solution
-a <- seq(1,100,1) # look up help for seq using ?seq() in console
-print(a)
-
-```
-
-# Replace this with problem 4
-
-And keep going. Try to solve the problems with different scripts that provide the same solution. Good luck, Happy coding.

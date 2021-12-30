@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: "LING 2200"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **Courses**
+# **LING 2200**
 
 Put some info here about the courses.
 
