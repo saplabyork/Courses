@@ -35,7 +35,7 @@ The speech chain represents the nature of communicating a linguistic message via
 </p>
 
 
-In this course, we will be examining in great detail the nature of:
+In this course, we will be examining, in detail, the nature of:
 
 * **Acoustics**: the physical properties of sound
 * **Audition**: the process of sound transduction in the ear
