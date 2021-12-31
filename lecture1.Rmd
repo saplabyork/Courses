@@ -2,6 +2,8 @@
 title: "The Nature of Sound"
 output:
   html_document:
+    includes:
+      in_header: "favicon.html"
     theme: paper
     toc: true
     toc_float: true
