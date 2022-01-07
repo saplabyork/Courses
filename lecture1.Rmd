@@ -111,7 +111,6 @@ For our purposes, it's useful to imagine the relationship between two containers
   <img width="300" height="300" src="images/boylelaw.gif">
 </p>
 
-Here's a quiz:
 
 We know that there are air molecule pressure changes, cumulatively, involved when the volume of the container shrinks or expands, but what exactly happens between individual air molecules?
 
@@ -138,6 +137,7 @@ Here is a nice [video demonstration](https://www.youtube.com/watch?v=bYoTRx6gGX0
 Once molecules have been set into motion, three forces keep them moving back and forth before they eventually stop (remember Newton's Laws?)
 
 1. **Elasticity**: the restoring force that allows an object to return to its original size, form, location, and shape having been displaced, stretched, pulled, etc.&rarr; think a stretched rubber band, when released returns to it's natural size and shape
+    a. **Hooke's Law** captures the basic principle behind elasticity. It says that the restoring force is proportional to the displacement and acts in the opposite direction. So imagine a rubber band. If you stretch it out very far, the "snap back" is fast and hard. If you don't stretch it very much, the snap back is minimal. This is a good schematic for understanding restoring force. The further the molecule is displaced, the greater the elastic force to bring it back to its starting location and beyond due to $\downarrow$
 2. **Inertia**: the resistance of an object to change in state of motion or rest
 3. **Friction** : the force that opposes motion
 
