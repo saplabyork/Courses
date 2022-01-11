@@ -92,6 +92,12 @@ What is flow?→ the movement of air, measured in volume/time (e.g., *l/s*). The
 1. **Laminar flow**, where there is no obstruction of molecules (this is really not relevant for speech purposes)
 2. **Turbulent flow**, where something obstructs the flow (think, ridges in the mouth, your lips, teeth, etc.). Turbulent flow results in small pressure changes around the obstruction. 
 
+<p align="center">
+<video width="420" height="340" controls>
+  <source src="images/laminar.mp4" type="video/mp4">
+</video>
+</p>
+
 # Pressure
 ## Boyle's Law
 
