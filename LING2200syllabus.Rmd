@@ -26,7 +26,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 </style>
 
-# **LING 2200: Introduction to Speech and Language Sciences** 
+# **LING 2200: Introduction to Speech and Language Sciences**\
+Instructor: [Chandan Narayan](https://ch-narayan.github.io)\
+Office hours: Tuesdays and Thursdays 10-11am [Zoom link](https://yorku.zoom.us/j/97755816919?pwd=L1krNjJlUm9TL2RWWE1HWnZwNXZLQT09)\
+
 ## Course Outline and Schedule
 
 ***
