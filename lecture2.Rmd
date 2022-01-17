@@ -56,7 +56,7 @@ Musicians among you may know this tone as the note "A" in a Western traditional 
 <p align="center">
   <img src="images/a440.jpeg" width="75%" height="75%">
 </p>
-/
+
 
 Listen to the two sounds one after the other:
 
@@ -244,11 +244,11 @@ Hard, smooth objects tend to **reflect** sounds (similar to how a mirror works).
 </figure>
 \
 
-## Refraction and Defraction
+## Refraction and Diffraction
 
 * **Refraction** is another phenomenon where sound changes direction, either as a result of a change in medium (say from air to water) or a change in temperature. A typical example of refracting sound is when it passes over a body of water. The air above water tends to be cooler than when it is not above water. Sound waves tend to *refract* or bend towards cooler air, which slows down the wave relative to warmer air much higher above.  
 
-* **Defraction** is when the sound waves past an object or through an opening. Imagine a wall separating two rooms with a doorway between. If you're standing in one room and your friend in the other, the reason why you're able to hear each other is because sound waves travel around the edge of the wall and through the opening. Ultimately this depends on the wavelength (see Lecture 1) of the sound. If the wavelength of the sound is of similar size to the obstacle (in this example, the wall), then the sound will easily bend around it. Similarly, we can hear distant thunder (low frequency) because of its long wavelength, allowing the sound to defract around obstacles like trees and houses.
+* **Diffraction** is when the sound waves past an object or through an opening. Imagine a wall separating two rooms with a doorway between. If you're standing in one room and your friend in the other, the reason why you're able to hear each other is because sound waves travel around the edge of the wall and through the opening. Ultimately this depends on the wavelength (see Lecture 1) of the sound. If the wavelength of the sound is of similar size to the obstacle (in this example, the wall), then the sound will easily bend around it. Similarly, we can hear distant thunder (low frequency) because of its long wavelength, allowing the sound to diffract around obstacles like trees and houses.
 
 ## Interference
 
