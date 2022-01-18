@@ -33,9 +33,10 @@ The purpose of today's lab is to produce and examine the characteristics of pure
 ## The sine wave equation
 
 The function that generates a sine wave (or a pure tone, simple harmonic motion, etc.) captures amplitude (A), and the frequency(f):
-$$
+
+\begin{equation}
 y(x) = A \times sin(2\pi fx)
-$$
+\end{equation}
 
 Why $2\pi$? The period of the sine function is $2\pi$, which means that the value of the function is the same every $2\pi$ radians, which is a unit of angular measurement. So the curve varies over $2\pi$ radians over the course of one period(t). So because $f=\frac{1}{t}$ the sine formula above can be re-written as $sin(\frac{2\pi}{t}x)$. 
 
@@ -55,3 +56,5 @@ This brings up the a window that looks like this:
     + For now ignore the sampling rate
     
 3. The most important field is "Formula." Notice it says "1/2 * sin(2 * pi * 377 * x)" by default (the spaces don't matter). It also says "+ randomGauss(0,0.1)", which you can select and delete. What that does is add random noise to the pure tone signal. 
+
+4. Compare the formula to the 
