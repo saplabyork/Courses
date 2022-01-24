@@ -11,7 +11,7 @@
 
 
 
-<title>Acoustic resonance, Breathing</title>
+<title>Acoustic resonance</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -348,7 +348,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Acoustic resonance, Breathing</h1>
+<h1 class="title toc-ignore">Acoustic resonance</h1>
 
 </div>
 
@@ -512,8 +512,10 @@ function check_answer()
 <p>For a quarter-wave resonator, the first three resonances have frequencies of 343/(4 * 0.17), (3 * 343)/(4 * 0.17), and (5 * 343)/(4 * 0.17), which is 504, 1513, 2522 Hz.</p>
 </div>
 </div>
-<div id="resonators-as-filters" class="section level3">
-<h3>Resonators as filters</h3>
+</div>
+</div>
+<div id="filters" class="section level1">
+<h1>Filters</h1>
 <p>Acoustic resonators are important for our understanding of speech as they model the relationship between the incident wave (the sound produced by the vocal folds vibrating) and the <strong>filter</strong> which is the vocal tract above the vocal folds modeled as a series of tubes. Frequencies from the incident wave are either amplified (constructive interference) or dampened (destructive interference) depending on the length and open-endedness of the vocal tract tube model.</p>
 <p>To demonstrate this, imagine a half-wave resonator (open-open) with a length of 1m. This means that F1 is 343/2 = 171.5Hz. If I had a 170Hz tuning fork and I struck it, introducing the sound to the open-open tube, I would expect the sound to be amplified because 170 is very close to the resonant frequency of the tube. The further away I get from the resonant frequency, the more dampening an effect it would have on the sound introduced into the tube.</p>
 <p>The resonant frequency of the tube is fairly “sharp” meaning that the tube is uniform in dimensions and target a specific frequency pretty well. Frequencies around the resonant frequency are also amplified, but not as much as the resonant frequency. This type of <em>uniform resonator</em> is said to be <strong>narrowly tuned</strong>. This is in contrast to an oddly shaped resonator, where there is a <strong>broader</strong> <em>band</em> of frequencies which can be amplified, though the overamplitude increase is small.</p>
@@ -522,7 +524,31 @@ function check_answer()
 </p>
 <p><br />
 </p>
+<p>The vast majority of filters we’ll encounter in the real world are oddly shaped and not like the perfectly symmetrical tube resonators described above. A further complication is that when we’re dealing with speech, these resonating cavities change their shape over time.</p>
+<p align="center">
+<img src="images/mri_tubes.gif" width="50%%" height="50%">
+</p>
+<p><br />
+</p>
+<p>In the MRI animation above, examine the changing shape of the vocal tract (the black areas because they’re filled with air). This is essentially the state of our tube models <span class="math inline">\(\rightarrow\)</span> a good approximation, but not really what’s going on in our mouths.</p>
+<div id="bandwidth" class="section level2">
+<h2>Bandwidth</h2>
+<p>The shape of the resonator determines the <strong>bandwidth</strong> of the frequencies which are amplified. So in the image above, the oddly shaped resonator has a wide bandwidth relative to the tube which has a narrower bandwidth, with a sharply tuned peak. How is bandwidth specified? There really isn’t a strict definition of a resonator/filter’s bandwidth. The further you get from the resonating frequency, the less efficiently those frequencies are passed through. When I say “pass through” you can really think of filtering as sort of like any other filter you’re familiar with, like a shower head, which prevents some water from getting through, while allowing other parts of the water to freely pass.</p>
+<p align="center">
+<img src="images/showerhead.gif" width="50%%" height="50%">
+</p>
+<p><br />
+</p>
+<p>We <em>can</em> define a bandwidth using the concept of <strong>cutoff frequency</strong>. In the image above of the oddly shaped resonator, the width is bounded at 300 and 700Hz. The cutoff frequency is defined as the frequency at which the incident wave is cut by half by the filter. So, if we were to introduce a complex wave to the odd shaped filter, the 300Hz and 700Hz components of the complex sound would be half as intense with the filter as without.</p>
 </div>
+<div id="types-of-filters" class="section level2">
+<h2>Types of filters</h2>
+<p>The resonator/filter results in certain frequencies of the incident sound being amplified and others dampened. This results in an overall shape, or <strong>envelope</strong>, of the filter. We can classify filters according to their envelope. Some filters let high frequencies pass through (<strong>high pass</strong>), some let low frequencies pass through (<strong>low pass</strong>), while others let through specific bands of frequencies (<strong>band pass</strong>) or block certain bands of frequencies (<strong>band stop</strong>). When you do speech processing these different types of filters may be useful for analyzing various components of your sound. For any of you who have seen or used a graphic equalizer on a stereo, you can think of filters in the same way.</p>
+<p align="center">
+<img src="images/graphic_eq.png" width="50%%" height="50%">
+</p>
+<p><br />
+</p>
 </div>
 </div>
 

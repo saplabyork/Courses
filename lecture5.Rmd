@@ -1,5 +1,5 @@
 ---
-title: "Acoustic resonance, Breathing"
+title: "Acoustic resonance"
 output:
   html_document:
     includes:
@@ -216,7 +216,7 @@ function check_answer()
 
 For a quarter-wave resonator, the first three resonances have frequencies of 343/(4 * 0.17), (3 * 343)/(4 * 0.17), and (5 * 343)/(4 * 0.17), which is 504, 1513, 2522 Hz. 
 
-### Resonators as filters
+# Filters
 
 Acoustic resonators are important for our understanding of speech as they model the relationship between the incident wave (the sound produced by the vocal folds vibrating) and the **filter** which is the vocal tract above the vocal folds modeled as a series of tubes. Frequencies from the incident wave are either amplified (constructive interference) or dampened (destructive interference) depending on the length and open-endedness of the vocal tract tube model. 
 
@@ -226,5 +226,34 @@ The resonant frequency of the tube is fairly "sharp" meaning that the tube is un
 
 <p align="center">
   <img src="images/nonuniform_resonator.png" width="75%%" height="75%">
+</p>
+\
+
+The vast majority of filters we'll encounter in the real world are oddly shaped and not like the perfectly symmetrical tube resonators described above. A further complication is that when we're dealing with speech, these resonating cavities change their shape over time. 
+
+<p align="center">
+  <img src="images/mri_tubes.gif" width="50%%" height="50%">
+</p>
+\
+
+In the MRI animation above, examine the changing shape of the vocal tract (the black areas because they're filled with air). This is essentially the state of our tube models $\rightarrow$ a good approximation, but not really what's going on in our mouths. 
+
+## Bandwidth
+
+The shape of the resonator determines the **bandwidth** of the frequencies which are amplified. So in the image above, the oddly shaped resonator has a wide bandwidth relative to the tube which has a narrower bandwidth, with a sharply tuned peak. How is bandwidth specified? There really isn't a strict definition of a resonator/filter's bandwidth. The further you get from the resonating frequency, the less efficiently those frequencies are passed through. When I say "pass through" you can really think of filtering as sort of like any other filter you're familiar with, like a shower head, which prevents some water from getting through, while allowing other parts of the water to freely pass. 
+
+<p align="center">
+  <img src="images/showerhead.gif" width="50%%" height="50%">
+</p>
+\
+
+We *can* define a bandwidth using the concept of **cutoff frequency**. In the image above of the oddly shaped resonator, the width is bounded at 300 and 700Hz. The cutoff frequency is defined as the frequency at which the incident wave is cut by half by the filter. So, if we were to introduce a complex wave to the odd shaped filter, the 300Hz and 700Hz components of the complex sound would be half as intense with the filter as without. 
+
+## Types of filters
+
+The resonator/filter results in certain frequencies of the incident sound being amplified and others dampened. This results in an overall shape, or **envelope**, of the filter. We can classify filters according to their envelope. Some filters let high frequencies pass through (**high pass**), some let low frequencies pass through (**low pass**), while others let through specific bands of frequencies (**band pass**) or block certain bands of frequencies (**band stop**). When you do speech processing these different types of filters may be useful for analyzing various components of your sound. For any of you who have seen or used a graphic equalizer on a stereo, you can think of filters in the same way.
+
+<p align="center">
+  <img src="images/graphic_eq.png" width="50%%" height="50%">
 </p>
 \
