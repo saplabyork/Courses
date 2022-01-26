@@ -22,7 +22,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-Without properly functioning lungs, breathing in and out, (you'd be dead) you wouldn't be able to make audible speech sounds. Today's lecture introduces you to how the phenomenon of respiration is the source os speaking.
+Without properly functioning lungs, breathing in and out, (you'd be dead) you wouldn't be able to make audible speech sounds. Today's lecture introduces you to how the phenomenon of respiration is the source of speaking.
 
 # Ventilation
 
