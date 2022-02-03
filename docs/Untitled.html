@@ -11,7 +11,7 @@
 
 
 
-<title>LING 2200</title>
+<title>Phonation</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -281,7 +357,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">LING 2200</h1>
+<h1 class="title toc-ignore">Phonation</h1>
 
 </div>
 
@@ -291,39 +367,12 @@ $(document).ready(function () {
   font-size: 12pt;
 }
 </style>
-<style type="text/css">
-.title {
-  display: none;
-}
+<p>Today’s mini-lecture (the second half of the lecture is dedicated to reviewing the old lectures in prep for the Midterm) deals with <em>phonation</em>, or the vibration of the vocal folds prviding the <em>source</em> sound to the upstream cavities resulting in vowel-like sounds.</p>
 
-#getting-started img {
-  margin-right: 10px;
-}
 
-</style>
-<div class="row" style="padding-top: 30px;">
-<div id="introduction-to-speech-and-language-sciences" class="section level1 col-sm-6">
-<h1><strong>Introduction to Speech and Language Sciences</strong></h1>
-<p>Tuesdays &amp; Thursdays, 11:30-1pm<br />
-<a href="https://www.yorku.ca/colleges/stong/">Stong College</a>, Rm. 216<br />
-Instructor: <a href="https://ch-narayan.github.io">Chandan Narayan</a><br />
-Contact: <a href="mailto:chandann@yorku.ca">chandann@yorku.ca</a><br />
-<a href="LING2200syllabus.html">Course outline and schedule</a></p>
-<div id="about" class="section level3">
-<h3>About</h3>
-<p>This course is a rigorous introduction to key aspects of speech sciences, including acoustic phonetics, speech perception, speech production and audition, the brain and language, as well as fundamental concepts in speech-language development and disorders. The relationship between speech and abstract levels of language, such as syntax and phonology, is also considered though it is not the focus of the course. Specific topics include speech anatomy and aerodynamics, the speech chain, source-filter theory, auditory transduction, and theories of speech production and perception. The course also provides an overview of research methodologies for the analysis of speech, including instrumental techniques such as acoustic analysis with PRAAT.</p>
-</div>
-<div id="how-to-use-this-site" class="section level3">
-<h3>How to use this site</h3>
-<p>This site is meant to serve as a supplement to the delivered lectures and associated slides posted on <a href="https://eclass.yorku.ca">eClass</a>. The notes will give a bit more detail than the slides, as well as some practice problems of the type you might encounter on quizzes and exams.</p>
+
 </div>
 </div>
-<div class="col-sm-6">
-<p><img src="images/facemodel.jpg" /> </a></p>
-</div>
-
-
-
 
 </div>
 
@@ -356,6 +405,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
