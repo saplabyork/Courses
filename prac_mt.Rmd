@@ -1,0 +1,18 @@
+---
+title: "MT practice questions"
+author: "Chandan Narayan"
+date: "06/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## MT Practice problem answers
+
+1. Suppose you have a tube that's closed at one end. The frequency of the 5th resonance is 0.05kHz. Assuming that the speed of sound is 330m/s, what is the length of the tube in cm? [Answer](images/prac_1.pdf)
+
+2. What is the dB reading for a sound with an intensity of 0.01 W/m2 [Answer](images/prac_2.pdf)
+
+3. A gas that has a volume of 5 ml at 3 atm at sea level will have a what volume at the top of Mt. Everest, where the pressure drops by 0.3 atm? [Answer](images/prac_3.pdf)
