@@ -16,3 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 2. What is the dB reading for a sound with an intensity of 0.01 W/m2 [Answer](images/prac_2.pdf)
 
 3. A gas that has a volume of 5 ml at 3 atm at sea level will have a what volume at the top of Mt. Everest, where the pressure drops by 0.3 atm? [Answer](images/prac_3.pdf)
+
+ (5ml)(3atm) =x(2.7atm)
+ x=15/2.7=5.56ml
