@@ -81,7 +81,7 @@ $$
 
 1. Use Praat to figure out the length of your vocal tract!
 
-2. Record your voice saying the sound "uuuuuuhhhhhh" for at least 2 seconds. The main vowe in this utterance is schwa.
+2. Record your voice saying the sound "[uuuuuuhhhhhh](sounds/uhh.wav)" for at least 2 seconds. The main vowel in this utterance is schwa.
 
 3. New > Record mono sound > *record the word the "save to list" 
 
