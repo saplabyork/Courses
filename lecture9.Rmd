@@ -130,7 +130,7 @@ The /i/ vowel is in words like "keep" or "eel". It's produced with the tonge bla
 
 The /a/ vowel is the one in word like "father" (though there's lots of variation, this is roughly in the right neighborhood). The tongue configuration here is smoewhat the opposite of the configuration for /i/, with a small pharyngeal cavity (high F1) and a large oral cavity (low F2).
 
-We can also extend (and shorten) the length of the oral cavity by manipulating the lips. By rounding your lips, you're essentially extending the length of the oral cavity because they end up being protrouded. Likewise when you spread your lips, you shorten the oral cavity relative to a neutral position. In the picture below, you'll see models of /i/ and /u/ (where the lips are rounded). Notice that the tongues are in roughly the same position, with similar pharyngeal volumes. The oral cavity for /u/ is longer and as a result F2 is lower than in /i/.
+We can also extend (and shorten) the length of the oral cavity by manipulating the lips. By rounding your lips, you're essentially extending the length of the oral cavity because they end up being protrouded. Likewise when you spread your lips, you shorten the oral cavity relative to a neutral position. In the picture below, you'll see models of /i/ and /u/ (where the lips are rounded). Notice that the tongue is in roughly the same position, with similar pharyngeal volumes. The oral cavity for /u/ is longer and as a result F2 is lower than in /i/.
 
 <p align="center">
   <img src="images/transfer_fucntion_iu.png" width="60%%" height="60%">
