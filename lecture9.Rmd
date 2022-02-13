@@ -136,3 +136,13 @@ We can also extend (and shorten) the length of the oral cavity by manipulating t
   <img src="images/transfer_fucntion_iu.png" width="60%%" height="60%">
 </p>
 \
+
+## Vowel formants
+
+As mentioned above, vowels are generally characterized by F1, F2, and sometimes F3. How can we change F1 and F2? We can change length of the vocal tract and we can also change how tightly we articulate or the degree of the constriction. When the tongue is moved to a particular position we have control over how close to palate the tongue is. If it is making contact with the palate then the air is stopped behind the constriction (which is what we do with consonants or stops). For vowels, the tongue must approach the palate but not make contact. The closer the constriction in the vocal tract (or the tighter the articulation), the lower the F1. If there is a constriction with the back of the tongue, F2 is lowered. If the front of the tongue is constricted, F2 will raise, and F1 will lower (as the constriction is in the vocal tract).
+
+<p align="center">
+  <img src="images/tongue_movement.gif" width="60%%" height="60%">
+</p>
+\
+

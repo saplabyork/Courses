@@ -1,0 +1,33 @@
+---
+title: "Audition basics"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+----
+We've spent considerable time discussing the anatomy and physiology of speech production (though we haven't yet addressed consonants, we'll get to that), so today we start our description of the process of hearing or audition. As with production, we'll need to describe some anatomy, but we'll quickly move into the functionality of the inner ear, or how sound is converted into electrical energy that is received by the brain."
+----
+
+# Anatomy of the ear
+
+We might have some lay sense of the structures of the ear as they're talked about in every day language ("you'll blow out your ear drums!"), we've experienced or heard about common ear-related ailments (i.e., ear infections), and the outer structures are mostly visible and a salient aspect of a person's face/head.
+
+The ear is actually made up of three different structures: the **Outer**, **Middle**, and **Inner* ear. 
