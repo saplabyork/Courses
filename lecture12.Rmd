@@ -1,0 +1,93 @@
+---
+title: "Spectrogram Lab"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+----
+
+In today's lab we get back to Praat and explore the *spectrogram*, which is a key analysis display for speech. Recall that we have been working with waveforms, which is a representation of speech as a fluctuation of air pressure across time. We also introduced the *spectrum* representation, which was a frequency x amplitude slice in time. We now build on these two representations with the **spectrogram**.
+
+# The spectrogram
+
+The spectrogram is essentially as spectrum representation with the addition of time. If you were to take the typical spectrum, like the one below, rotate it counterclockwise 90&deg; then 90&deg; towards you, then did that for ever spectral slice over time, you would have a spectrogram. 
+
+<p align="center">
+  <img src="images/spectrum_schwa.png" width="50%" height="50%">
+</p>
+
+Here is the same spectrum rotated 90&deg;:
+
+<p align="center">
+  <img src="images/spectrum_schwa90.png" width="30%" height="30%">
+</p>
+
+And now a few of them over time. But we're essentially having to display a 3 dimensional representation (freq, time, amplitude) in 2D. How do we do this? The spectrogram uses the weight of the shading to represent the amplitude. The darker the color, the higher the amplitude. 
+
+<p align="center">
+  <img src="images/spectrogram_sketch.png" width="50%" height="50%">
+</p>
+
+Now examine the two spectrograms below. The one on the left is called a "narrow-band" spectrogram, and the on the right a "wide-band" spectrogram."
+
+<p align="center">
+  <img src="images/narrow-band_spec.png" width="50%" height="50%"><img src="images/wide-band_spec.png" width="50%" height="50%">
+</p>
+
+In order to generate a narrow-band spectrogram, we need to sample across a large window. For the image above, the window setting was 0.05s. This means that the program analyzes 0.05s of the signal as it samples it in X number of time steps. Let's examine how we can do this. 
+
+1. First download this wave file of me saying [uhhhh.](sounds/uhh.wav)
+2. Open the sound file into the Praat objects window, then click "View and Edit".$\rightarrow$ this should give you a window with a waveform on top and some spectrogram representation below.
+3. From the View and Edit window, click Spectrum > Spectrogram settings...
+
+<p align="center">
+  <img src="images/spec_settings.png" width="50%" height="50%">
+</p>
+
+Here we can play around with the specifications to change the resolution of the spectrogram. Direct your attention to the "Window length" setting. In this example, it's 0.05s. Change it to 0.005s. This means the window of analysis is very small, so the program doesn't have too much information to base it's estimation of the frequency components of the sound. This would result in a "wide-band" spectrogram:
+
+<p align="center">
+  <img src="images/wide-band_spec.png" width="50%" height="50%">
+</p>
+
+Notice how the "bands" are wide. The dark bands here are the formants. We estimate the numerical value of the formant by centering the cursor in the formant. We can have the program estimate the formants as well. Click Formant > Show formants.
+
+<p align="center">
+  <img src="images/wide-band_formants.png" width="50%" height="50%">
+</p>
+
+But what exactly is the difference between these two window sizes? Look at the picture below and it will give you a sense of what the program is doing. We can set the number of time steps the program takes across the signal (or the number of samples). One convenient way to remember the difference between wide- and narrow-band is that the smaller the window, the wider the band. The bigger the window, the better the approximation of the harmonics, and so the more stripey look of the spectrogram.
+
+# Steady state
+
+I want to introduce here the concept of **steady state** of the vowel. Notice in the spectrograms above the formants are relatively unchanging throughout the vowel. This is called the steady state portion of the vowel. This is possible because there is no consonant before and only a /h/ after (which is basically a vowel without vocal fold ocscillation). Vowels in real speech/words will have more or less of a steady state. 
+
+Below is the word "but". Notice that F1 and F2 start low (reflecting the bilabial closure) then F2 increases (reflecting the "t"). 
+
+<p align="center">
+  <img src="images/but.png" width="50%" height="50%">
+</p>
+
+Now, the question is, what is the F1/F2 of the vowel "uh" in "but"? Where do we measure it? It's moments like this that we consider phonetics an "art." If we look at the formant track, we notice there is a small region where the vowel is steady. This is the portion that is unaffected by the flanking consonants on either end of the vowel. It's from here that we will take out formant measurements.
+
+<p align="center">
+  <img src="images/formant_steady.png" width="50%" height="50%">
+</p>
