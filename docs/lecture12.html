@@ -414,6 +414,9 @@ div.tocify {
 <img src="images/wide-band_formants.png" width="50%" height="50%">
 </p>
 <p>But what exactly is the difference between these two window sizes? Look at the picture below and it will give you a sense of what the program is doing. We can set the number of time steps the program takes across the signal (or the number of samples). One convenient way to remember the difference between wide- and narrow-band is that the smaller the window, the wider the band. The bigger the window, the better the approximation of the harmonics, and so the more stripey look of the spectrogram.</p>
+<p align="center">
+<img src="images/window_moving.jpeg" width="50%" height="50%">
+</p>
 </div>
 <div id="steady-state" class="section level1">
 <h1>Steady state</h1>
@@ -422,7 +425,28 @@ div.tocify {
 <p align="center">
 <img src="images/but.png" width="50%" height="50%">
 </p>
-<p>Now, the question is, what is the F1/F2 of the vowel “uh” in “but”? Where do we measure it?</p>
+<p>Now, the question is, what is the F1/F2 of the vowel “uh” in “but”? Where do we measure it? It’s moments like this that we consider phonetics an “art.” If we look at the formant track, we notice there is a small region where the vowel is steady. This is the portion that is unaffected by the flanking consonants on either end of the vowel. It’s from here that we will take out formant measurements.</p>
+<p align="center">
+<img src="images/formant_steady.png" width="50%" height="50%">
+</p>
+</div>
+<div id="vowel-measuring" class="section level1">
+<h1>Vowel measuring</h1>
+<p>Many students working in phonetics labs end up measuring lots of vowels. What do we look for when measuring a vowel? We look for a steady state that’s unperturbed by consonants, as shown above. We generally report F1 and F2, but how do we get those? We can either inspect spectra (place your cursor in the steady state portion then generate a spectrum like you did in the previous lab/HW), or you can trust Praat’s algorithm to find F1 and F2 for you. Let’s go with the latter.</p>
+<ol style="list-style-type: decimal">
+<li>Open the uhh.wav file. In this case we have a steady state. It might be convenient to get the “average” formant values in this case.</li>
+<li>Select a portion of the middle of the vowel.</li>
+<li>Formants &gt; Show formants, then Formants &gt; Get first formant. This will open a dialog box with the formant value in Hz.</li>
+</ol>
+<p>What if we wanted a measurement of the formant values at vowel onset and offset? Let’s do this with <a href="sounds/cut.wav">“cut”</a>.</p>
+<div id="note-on-determining-vowel-onset-and-offset" class="section level2">
+<h2>Note on determining vowel onset and offset</h2>
+<p>There is really now hard and fast rule for determining the onset and offset of the vowel. What do we know about vowels? They’re complex period ic sounds, so one rule of thumb is that when the waveform starts to look periodic, we know we’re at the beginning of the vowel. Similarly for offset, when the waveform starts to look aperiodic or noisy or without much structure, then you’re likely at the offset. Your ears also tell you a lot about these landmarks. Trust them! In general you will want to measure the vowel at the zero crossing, but depending on your window size (if it’s small or large), you will want to take the measurement at either the first or second zero crossing.</p>
+</div>
+</div>
+<div id="audio-samples-for-assignment-2" class="section level1">
+<h1>Audio samples for Assignment 2</h1>
+<p><a href="sounds/hide_heidi_heidel.wav">Hide, Heidi, Heidelberg</a></p>
 </div>
 
 
