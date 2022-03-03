@@ -68,7 +68,7 @@ In the schematic image on the left, there are three different "types" of VOTs sh
 2. Positive VOT: there is a brief silence or time gap between the release of the constriction and the onset of phonation (like syllable-initial "voiceless" consonants in English, "pa","ta", "ka")
 3. Negative VOT: where phonation begins before the release of the consonants. We do this in connected English speech usually for voiced stop consonants, but it also happens in place of zero VOT for some speakers of English. 
 
-Here is a continuum of [VOT](sounds/chain.wav) doing from "da" to "ta". The individual sounds from the continuum are found [here](docs/vot_continuum.html).
+Here is a continuum of [VOT](sounds/chain.wav) doing from "da" to "ta". The individual sounds from the continuum are found [here](vot_continuum.html).
 
 
 
