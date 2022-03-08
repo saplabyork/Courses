@@ -1,5 +1,5 @@
 ---
-title: "Haring loss and speech perception"
+title: "Hearing loss and speech perception"
 output:
   html_document:
     includes:
