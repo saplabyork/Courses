@@ -1,0 +1,29 @@
+title: "Models and theories of production"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+----
+ # Models of production
+ 
+ When we say "model" what do we mean? A model is a simplification of what we think is actually happening. Much like a model of a train, a model of of some behaviour is approximates many complexities, which are put into a perspective that is tractable, yet captures the major features of the *actual thing*. It allows us to better understand complex systems and behaviours.
+
+Because speech production involves the coordination of lots of different physiological systems (e.g., respiration, phonation, articulation), we can attempt to model individual processes as well as larger systems to get a better sense of the relative timing and contribution of function to the speech process. 

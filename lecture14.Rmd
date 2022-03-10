@@ -60,9 +60,7 @@ The acoustic structure of vowels and consonants provide the listener with many s
 
 Over the past 30 years, radical new technologies have given hearing impaired individuals more access to the auditory world. **Cochlear Implantation** is a ([sometimes controversial](https://youtu.be/O_O0HIHU6L4)) procedure that directly stimulates the auditory nerve and bypasses a person's damaged ear (often cochlea). The device (receiver) is implanted into the cochlea (thereby stimulating the auditory nerve) and an external device (microphone, speech processor, transmitter and battery) is worn behind the ear. The receiver codes the incoming auditory signal and sends electrical impulses to electrodes stimulating the auditory nerve fibers. 
 
-<p align="center">
-<iframe width="560" height="315" src="https://youtu.be/O_O0HIHU6L4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+
 
   
 
