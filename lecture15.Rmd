@@ -22,8 +22,24 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 ----
- # Models of production
+# Models of production
  
  When we say "model" what do we mean? A model is a simplification of what we think is actually happening. Much like a model of a train, a model of of some behaviour is approximates many complexities, which are put into a perspective that is tractable, yet captures the major features of the *actual thing*. It allows us to better understand complex systems and behaviours.
 
-Because speech production involves the coordination of lots of different physiological systems (e.g., respiration, phonation, articulation), we can attempt to model individual processes as well as larger systems to get a better sense of the relative timing and contribution of function to the speech process. 
+Because speech production involves the coordination of lots of different physiological systems (e.g., respiration, phonation, articulation), we can attempt to model individual processes as well as larger systems to get a better sense of the relative timing and contribution of function to the speech process.
+
+# Theories of production
+
+A theory is a statement about one's understanding of how a particular phenomenon happens. Crucially, theories are falsifiable, that is, someone could do an experiment showing that a particular theory is wrong. But the way science progresses is that we don't just throw away the theory, we make changes to it and in this way we get closer and closer to the truth. Experiments don't *prove* theories, but rather they *support* theories, because there may be no real way to know the exact truth. 
+
+# Issues in modeling speech production
+
+Any model of of we produce speech has to account for three "problems" (much like the problems of speech perception):
+
+1. The serial-order problem
+2. The degrees-of-freedom problem
+3. The context sensitivity problem
+
+## Seiral order
+
+Speech necessarily unfolds over time and therefore the relative timing of things is important in communicating the message. This is necessary at every level of analysis, from the phone and phoneme, to word and sentence. For example, in English "John walks the dog" is very different from "The dog walks John." What about the initiation and execution of speech gestures? How are they organized in the brain and executed in the form of muscular movements in the mouth?
