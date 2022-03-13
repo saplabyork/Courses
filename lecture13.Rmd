@@ -70,7 +70,71 @@ In the schematic image on the left, there are three different "types" of VOTs sh
 
 Here is a continuum of [VOT](sounds/chain.wav) doing from "da" to "ta". The individual sounds from the continuum are found [here](vot_continuum.html).
 
+Below are the waveforms for the synthetic VOT continuum. Though it's hard to see here, notice that the initial noise burst slowly disappears as you move from left to right. Remember, the vowel-consonant (of the CVC sequence) remain the same in every token, just the VOT changes.
 
+<p align="center">
+  <img src="images/d_t_continuum.png" width="100%" height="100%">  
+</p>
 
+When we did this identification exercise in class we got a pretty good approximation to the idealized categorical perception curve above. What this means is that listeners cannot distinguish between tokens on either side of a *crossover*, generally in the middle area of the continuum. That is, on either side of the crossover is a "category", in this case, either a "d" or a "t."
 
+# F2 transition
+
+Categorical perception in speech occurs with acoustic cues other than VOT too. For example, the place of articulation of a consonant is cued by the frequency of F2 at the beginning of a vowel in a CV sequence. This "F2 transition" tells us whether we're hearing a bilabial, alveolar, or velar stop. 
+
+Below is an image of synthetic CV stimuli that show the relationship between the onset of F2 in the vowel and percept. Notice how the F2 transition is modulated by the identity of the vowel. In general, for bilabials the F2 onset "points" down, while for velars, it points up. For alveolars it's more tightly linked to the vowel identity. 
+
+<p align="center">
+  <img src="images/formant-transitions.png" width="70%" height="70%">  
+</p>
+
+You'll also notice that it's not only the onset frequency of F2 that varies, but also the duration of the transition before the vowel's steady state. 
+
+# Trading relationships
+
+Consonants (and to some extent vowels) are not defined (perceptually) purely by singular acoustic cues. For example, something like voicing is not *just* VOT. Rather, there are multiple acoustic cues that contribute to the perception of some phonological feature or characteristic. Continuuing with the voicing feature (distinguishing p/b, t/d, k/g) there are other cues that trigger voicing for the listener. 
+
+## F1 cutback, Pitch perturbation
+
+1. F1 cutback: When a stop is released there is a (sometimes) brief moment before the onset of the following vowel (in a CV sequence). This moment (called VOT) is characterized by the coupling of the trachea with the oro-pharyngeal cavities. When these tubes are coupled there is a low-frequency *anti-resonance* (as well as the more typical frication associated with VOT) such that there is no energy in the F1 region. This is called **F1 cutback**, and can extend into the vowel. That is, the higher formants of the vowel can start before we see energy in F1. When F1 does appear, it is higher in voiceless consonants than it is in voiced consonants. 
+
+So when F1 is delayed it is naturally high $\rightarrow$ voiceless percept; F1 is not delayed, it is low $\rightarrow$ voiced percept. 
+
+2. Pitch perturbation: It's called "pitch" perturbation but it refers to the physical phenomenon of the F0 being lower in voiced CVs than in voiceless CVs. It is a very subtle, but reliable difference that reflects the fact that when there is a voiceless stop, after release of the consonant there is enough time for intraoral pressure to rapidly decrease, thereby allowing air to more rapidly across the vocal folds resulting in momentary high F0; whereas with voiced stops the pressue in the oral cavity is relatively high so air flow across the vocal folds is momentarily low, resulting in low F0. 
+
+Listeners are sensitive to the relationship between High F0/Voiceless consonant, Low F0/Voiced consonant. 
+
+Together with VOT, F1 cutback and Pitch Perturbation form a trading relationship for the perception of voicing in CVs. The listener doesn't treat all of these cues equally, however. There's evidence that listners *weight* VOT greater than F1 cutback or Pitch Perturbation, that is, it a more *salient* cue. 
+
+So, in the absence of the more heavily weighted cue, the other cue(s) may allow the listener to recover the percept.
+
+# Coarticulation
+
+We've talked about coarticulation before. It is the phenomenon whereby adjacent sounds influence each other when articulations are initiated before the preceding articulation is complete. The reasons for this might include efficiency while maximizing information transmission. Perceptually, the listener must unpack coarticulated utteracnces to recover the intended phonemes. It turns out that listeners are very good at this, that is, they know what the accoustic consequences of coarticulation are. 
+
+Acoustic elements of preceding and following sounds are incorporated into target sounds as a result of coarticulation. For example, in the word "soo", lip rounding from /u/ is present during the production of /s/. In "see", however, the lips are spreading during /s/ in anticipation of /i/. The resulting acoustics are such that the high frequency bandwidth of /s/ in "soo" is wider than the /s/ in "see."
+
+<p align="center">
+  <img src="images/sisu.png" width="70%" height="70%">  
+</p>
+
+There are continuously shifting acoustic features that interact with and affect adjacent features. Listeners integrate acoustic information that is spread over many phonetic segments in order to make a judgement about a particular phone's identity. 
+
+# Perception of consonants
+
+## Liquids
+
+Liquids (/l/ and /r/) are similar to diphthongs (consisting of a movement to two positions) and recognized on the basis of their formant transition or movement. Unlike diphthongs, the transitions for liquids are much faster. F3 is also important for differentiating liquids, being lower in /r/ than /l/. Below is "la" followed by "ra". Notice in the liquid initial portion that F3 is basically overlapping with F2 in "ra".
+
+<p align="center">
+  <img src="images/rala.png" width="70%" height="70%">  
+</p>
+
+## Glides
+
+The glides /j/ and /w/ are characterized by transitions that are shorter than in diphthongs. When the transition duration is shorter than 40-60ms, listeners hear a stop, but when it is between 60-150ms, they judge the sound to be a a glide. The image below is /ja/ followed by /wa/.
+
+<p align="center">
+  <img src="images/jawa.png" width="70%" height="70%">  
+</p>
 
