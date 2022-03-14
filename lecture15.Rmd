@@ -43,3 +43,5 @@ Any model of of we produce speech has to account for three "problems" (much like
 ## Seiral order
 
 Speech necessarily unfolds over time and therefore the relative timing of things is important in communicating the message. This is necessary at every level of analysis, from the phone and phoneme, to word and sentence. For example, in English "John walks the dog" is very different from "The dog walks John." What about the initiation and execution of speech gestures? How are they organized in the brain and executed in the form of muscular movements in the mouth?
+
+Speech elements are serialized, that is, there is sequence of events that must occur in proper order and according to a specific timing schedule. But which elements are serialized? At what level does the ordering take place? What if we didn't have a notion of *phoneme* or *morpheme* or *word*? What is being initiated when start the motor command for speech?
