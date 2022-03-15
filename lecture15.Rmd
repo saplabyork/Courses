@@ -59,3 +59,7 @@ When we speak we have to control a large number of moving variables, including t
 </p>
 
 The elbow joint allows movement in one direction, so it has one degree-of-freedom. The structures involved in the production of speech can move in many different ways. These structures can also move inconjunction with other structures, either in-phase (or together with) or out of phase (at different times). How do we control these structures given the myriad ways the muscles involved in speech move? There are three general classes of theories that expalin how we achieve this control: some suggesting that each muscle contraction is programmed into separate neuromuscular signals, while others suggest that there is a hierarchy of control, with upper levels of the system controlling lower levels. Another class of theories suggest that we reduce the degrees-of-freedom problem by organizing muscles into functional groups that work in a coordinated fashion to achieve the articulatory goal. 
+
+## Context sensitivity
+
+The final last problem that theories of speech production need to address is, in a way, related to the serial order issue, namely context sensitivity. 
