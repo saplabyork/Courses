@@ -1,0 +1,45 @@
+---
+title: "Models and theories of perception"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+----
+
+# Speech perception
+
+Speech perception refers to the ability to receive and interpret (as linguistically relevant) incoming speech. The ability is allows us to decompose speech into component parts, combining them, classifying them, and ultimately utilizing them in order to inform a decision like "is this a "pa" or not?" or "what is this word?".
+
+At its core, speech perception depends on our ability to recognize speech sounds (phones, syllables, words, etc.) and translate them into linguistic knowledge $\rightarrow$ phonology, syntax, semantics. That is, listeners take a continuously changing signal and transform it into meaningful units. How do listeners do this? They use any and all information available in the speech signal, capitalizing on redundant acoustic cues, as well as the knowledge they have gained through experience. Experience with language ultimately shapes how the listener hears speech information. Our experience as English speakers shapes the way we hear speech, allowing us to focus on those aspects of the signal that are important for English, while ignoring irrelevant information. 
+
+## Categorical speech perception
+
+We have discussed categorical speech perception in previous lectures but haven't discussed the mechanisms that underly the phenomenon. The data reduction involved in speech perception is a function of the nature of the acoustic signal as well as the listener's experience (or native langauge). It's a very good thing that we perceive speech categorically otherwise we would be flooded with unnecessary information (e.g., the differences between multiple talkers saying the same thing, or even within an individual saying the same thing but with physically different utterances). 
+
+### PME 
+
+But *how* does categorical speech perception happen? One proposal, the **Perceptual Magnet effect**, suggests that with experience with the speech world, we create *prototypes* of sounds against which we assess incoming speech. The prototype serves as a magnet, attracting nearby sounds towards it, thereby making discrimination between the prototype and the non-prototype very poor (i.e., essentially no difference between the two). In the image below we see two prototypes, one for /i/ (as in "heat") and /y/, or the high-frount rounded vowel (as in the French word "tu", meaning *you*). 
+
+<p align="center">
+  <img src="images/pme.jpeg" width="50%" height="50%">
+</p>
+
+Speech tokens that are close to the prototypes are essentially not different from the prototype itself. Notice how good instances of /y/ are bad instances of /i/. In this way, the mechanism behind categorical perception is rooted in the establishment of a prototype. But how do we get the prototype? In the studies by [Pat Kuhl](https://www.pnas.org/doi/10.1073/pnas.97.22.11850), who developed the theory behind the perceptual magnet effect, prototypes were identified by surveying people on what they thought were "good" and "less good" examples of a particular vowel. Importantly, these prototypes need not reflect actual instances of real productions, but rather idealized versions of the sound. 
