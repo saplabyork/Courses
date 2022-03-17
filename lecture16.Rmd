@@ -32,7 +32,7 @@ At its core, speech perception depends on our ability to recognize speech sounds
 
 ## Categorical speech perception
 
-We have discussed categorical speech perception in previous lectures but haven't discussed the mechanisms that underly the phenomenon. The data reduction involved in speech perception is a function of the nature of the acoustic signal as well as the listener's experience (or native langauge). It's a very good thing that we perceive speech categorically otherwise we would be flooded with unnecessary information (e.g., the differences between multiple talkers saying the same thing, or even within an individual saying the same thing but with physically different utterances). 
+We have discussed categorical speech perception in previous lectures but haven't discussed the mechanisms that underly the phenomenon. The data reduction involved in speech perception is a function of the nature of the acoustic signal as well as the listener's experience (or native language). It's a very good thing that we perceive speech categorically otherwise we would be flooded with unnecessary information (e.g., the differences between multiple talkers saying the same thing, or even within an individual saying the same thing but with physically different utterances). 
 
 ### PME 
 
@@ -43,3 +43,16 @@ But *how* does categorical speech perception happen? One proposal, the **Percept
 </p>
 
 Speech tokens that are close to the prototypes are essentially not different from the prototype itself. Notice how good instances of /y/ are bad instances of /i/. In this way, the mechanism behind categorical perception is rooted in the establishment of a prototype. But how do we get the prototype? In the studies by [Pat Kuhl](https://www.pnas.org/doi/10.1073/pnas.97.22.11850), who developed the theory behind the perceptual magnet effect, prototypes were identified by surveying people on what they thought were "good" and "less good" examples of a particular vowel. Importantly, these prototypes need not reflect actual instances of real productions, but rather idealized versions of the sound. 
+
+### Acoustic invariance theories
+
+Recall the [*problems of speech perception*](lecture11.html) discussed a few weeks ago, one of which was the *lack of invariance*, which suggested that the reason why understanding the process of speech perception is so hard is because there isn't a one-to-one correspondence between the an acoustic signature and a phonetic percept. That is, there is no one defining acoustic feature of a phone (because of things like contextual effects like coarticulation). **Acoustic invariance** theories (it's really a class of theories and not a singular theory) appeal to this underlying concern but argue that *there is* invariance in the acoustic signal! There may be some evidence for this as we decompose the speech signal into finer and finer components. The reason why variance in the signal was such a problem was because we weren't looking hard enough to find the invariance. Some examples of this invariance: burst spectra for place of articulation in stop consonants $\rightarrow$ bilabials having diffuse/falling spectrum; alveolars a rising spectrum; velars a compact spectrum.
+
+## Direct Realism
+
+Direct realism builds upon a theory of perception from the visual domain, and suggests we perceive objects and events directly (as a result of experience) rather than reconstructing or interpreting them from the sensory input to the brain. The events in the case of speech perception would be the acoustic signal, rather than the gestures that result in the acoustic signal. This is analogized in the visual domain $\rightarrow$ one sees a candy bar in its wrapper and knows exactly what it is, its weight, its texture, etc., even if occluded by another object, because they have experienced that candy bar before. This would be a different perception than for someone who has never encountered this candy bar before, as the same visual structure will be *seen* but perceived in a different way. 
+
+## TRACE
+
+Connectionist models of production and perception are rooted in an understanding of the neural implementation of the processing and execution of behaviours. This is a fancy way of saying that the models resemble how researchers believe networks of neurons in the brain operate, that is, in a parallel but hierarchical way. Lower layers are stimulated by an incoming signal, activating features in that level, which in turn activate features in higher levels until a sound (or word) is recognized. 
+
