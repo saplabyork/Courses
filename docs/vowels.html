@@ -291,6 +291,9 @@ $(document).ready(function () {
 <li>
   <a href="lecture15.html">Lecture 15</a>
 </li>
+<li>
+  <a href="lecture16.html">Lecture 16</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -417,9 +420,7 @@ vowels</code></pre>
 <p>Here is the code to generate the vowel space for the class:</p>
 <pre class="r"><code>library(ggplot2)
 vowel_plot &lt;- ggplot(vowels, aes(x = F2, y = F1, color = vowel, label = vowel)) + labs(title = &quot;LING2200 vowel space&quot;) +
-     geom_text() + scale_x_continuous(position=&quot;top&quot;) + xlim(0,4000) + ylim(0,1500) + scale_y_reverse() + scale_x_reverse() +  stat_ellipse() + theme_bw()</code></pre>
-<pre><code>## Scale for &#39;x&#39; is already present. Adding another scale for &#39;x&#39;, which will
-## replace the existing scale.</code></pre>
+     geom_text() + xlim(0,4000) + ylim(0,1500) + scale_y_reverse() + scale_x_reverse() +  stat_ellipse() + theme_bw()</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which will
 ## replace the existing scale.</code></pre>
 <pre><code>## Scale for &#39;x&#39; is already present. Adding another scale for &#39;x&#39;, which will
