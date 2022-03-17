@@ -56,5 +56,9 @@ Direct realism builds upon a theory of perception from the visual domain, and su
 
 Connectionist models of production and perception are rooted in an understanding of the neural implementation of the processing and execution of behaviours. This is a fancy way of saying that the models resemble how researchers believe networks of neurons in the brain operate, that is, in a parallel but hierarchical way. Lower layers are stimulated by an incoming signal, activating features in that level, which in turn activate features in higher levels until a sound (or word) is recognized. The **TRACE** models is a connectionist model. 
 
-The layers or networks of units
+The layers or networks of units are the different levels of abstraction. The image below shows a basic TRACE model:
+
+<p align="center">
+  <img src="images/trace.jpeg" width="80%" height="80%">
+</p>
 
