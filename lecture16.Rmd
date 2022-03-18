@@ -34,7 +34,7 @@ At its core, speech perception depends on our ability to recognize speech sounds
 
 We have discussed categorical speech perception in previous lectures but haven't discussed the mechanisms that underly the phenomenon. The data reduction involved in speech perception is a function of the nature of the acoustic signal as well as the listener's experience (or native language). It's a very good thing that we perceive speech categorically otherwise we would be flooded with unnecessary information (e.g., the differences between multiple talkers saying the same thing, or even within an individual saying the same thing but with physically different utterances). 
 
-### PME 
+### Native language magnet 
 
 But *how* does categorical speech perception happen? One proposal, the **Perceptual Magnet effect**, suggests that with experience with the speech world, we create *prototypes* of sounds against which we assess incoming speech. The prototype serves as a magnet, attracting nearby sounds towards it, thereby making discrimination between the prototype and the non-prototype very poor (i.e., essentially no difference between the two). In the image below we see two prototypes, one for /i/ (as in "heat") and /y/, or the high-frount rounded vowel (as in the French word "tu", meaning *you*). 
 
@@ -42,7 +42,9 @@ But *how* does categorical speech perception happen? One proposal, the **Percept
   <img src="images/pme.jpeg" width="50%" height="50%">
 </p>
 
-Speech tokens that are close to the prototypes are essentially not different from the prototype itself. Notice how good instances of /y/ are bad instances of /i/. In this way, the mechanism behind categorical perception is rooted in the establishment of a prototype. But how do we get the prototype? In the studies by [Pat Kuhl](https://www.pnas.org/doi/10.1073/pnas.97.22.11850), who developed the theory behind the perceptual magnet effect, prototypes were identified by surveying people on what they thought were "good" and "less good" examples of a particular vowel. Importantly, these prototypes need not reflect actual instances of real productions, but rather idealized versions of the sound. 
+Speech tokens that are close to the prototypes are essentially not different from the prototype itself. Notice how good instances of /y/ are bad instances of /i/. In this way, the mechanism behind categorical perception is rooted in the establishment of a prototype. The theory that encapsulates the perceptual magnet effect is called the **Native Language Magnet** theory. 
+
+But how do we get the prototype? In the studies by [Pat Kuhl](https://www.pnas.org/doi/10.1073/pnas.97.22.11850), who developed the theory behind the perceptual magnet effect, prototypes were identified by surveying people on what they thought were "good" and "less good" examples of a particular vowel. Importantly, these prototypes need not reflect actual instances of real productions, but rather idealized versions of the sound. 
 
 ### Acoustic invariance theories
 
@@ -62,4 +64,8 @@ The layers or networks of units are the different levels of abstraction. The ima
   <img src="images/trace.jpeg" width="80%" height="80%">
 </p>
 
-The Features layer analyzes the incoming speech signal and activates nodes across itme according to various acoustic characteristics. When a node is sufficiently activated (these will have thresholds such that a certain amount of evidence must be present for the node to feed higher-level information), it activates a node above it in a higher layer. 
+The Features layer analyzes the incoming speech signal and activates nodes across itme according to various acoustic characteristics. When a node is sufficiently activated (these will have thresholds such that a certain amount of evidence must be present for the node to feed higher-level information), it activates a node above it in a higher layer. Likewise, as nodes in the Phoneme layer become active and past some threshold, nodes in the Word layer becomes active until ultimately a word is recognized.
+
+## Fuzzy logic
+
+Fuzzy logic theories of perception (in general) appeal to the probabilistic nature of categorization. So any item has a probability that it is something or not. For example 
