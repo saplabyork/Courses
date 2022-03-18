@@ -62,3 +62,4 @@ The layers or networks of units are the different levels of abstraction. The ima
   <img src="images/trace.jpeg" width="80%" height="80%">
 </p>
 
+The Features layer analyzes the incoming speech signal and activates nodes across itme according to various acoustic characteristics. When a node is sufficiently activated (these will have thresholds such that a certain amount of evidence must be present for the node to feed higher-level information), it activates a node above it in a higher layer. 
