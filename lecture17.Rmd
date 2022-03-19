@@ -1,0 +1,29 @@
+---
+title: "Building words"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+----
+
+# Building blocks
+
+What are the basic units of speech. In LING1000 you were introduced to the notion of the "phoneme", or the smallest unit of sound in a language which is ultimately *meaningful* in the sense that it can mark contrast. Phonological contrast is then used to distinguish meaningful utterances as words. If we were to dig deeper into the units of organization within the phoneme, we might consider the notion of a "feature" 
