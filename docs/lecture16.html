@@ -412,13 +412,17 @@ div.tocify {
 <h3>Acoustic invariance theories</h3>
 <p>Recall the <a href="lecture11.html"><em>problems of speech perception</em></a> discussed a few weeks ago, one of which was the <em>lack of invariance</em>, which suggested that the reason why understanding the process of speech perception is so hard is because there isn’t a one-to-one correspondence between the an acoustic signature and a phonetic percept. That is, there is no one defining acoustic feature of a phone (because of things like contextual effects like coarticulation). <strong>Acoustic invariance</strong> theories (it’s really a class of theories and not a singular theory) appeal to this underlying concern but argue that <em>there is</em> invariance in the acoustic signal! There may be some evidence for this as we decompose the speech signal into finer and finer components. The reason why variance in the signal was such a problem was because we weren’t looking hard enough to find the invariance. Some examples of this invariance: burst spectra for place of articulation in stop consonants <span class="math inline">\(\rightarrow\)</span> bilabials having diffuse/falling spectrum; alveolars a rising spectrum; velars a compact spectrum.</p>
 </div>
+<div id="motor-theory" class="section level3">
+<h3>Motor Theory</h3>
+<p>The <strong>Motor Theory</strong> of speech perception is perhaps the most famous of the invariance theories. It centers the “object” of speech perception as the production mechanism that implements the speech motor command. The theory follows from an idea that perception and production are intimately linked. When the listener hears a sound, she recovers (via the acoustic image) the articulatory gesture involved in producing the gesture. She does this because she has an intimate understanding (as a user of language) what articulatory configurations result in which acoustics. The motor theory relies on the philosophy that “speech is special” and that “humans are wired for speech” and therefore have this unique ability to perceive these objects of speech. In the late 1970s, it was demonstrated that some animals too (like Japanese quail for example) can also perceive speech categorically. The original motor theorists adjusted their theory to suggest that it wasn’t the gestures themselves that individuals were perceiving, but rather the neuromuscular commands.</p>
+<p>There is some evidence for the link between perception and production in the discovery of a class of neurons in the brain called <a href="https://www.pbslearningmedia.org/resource/hew06.sci.life.reg.mirrorneurons/mirror-neurons/#.XcxFlChKg2w"><strong>mirror neurons</strong></a>, which fire when engaged in an activity as well as when observing an activity. It turns out that the motor cortex, including portions of Broca’s area, show mirror system properties. Areas involved in planning and execution of gestures and areas involved in proprioception related to mouth movements (i.e., somatosensory cortex) are activated during auditory and visual speech perception. In fact, recent studies have shown that when regions in the brain responsible for certain motor movements (e.g., lip movements) are stimulated, recognition of labial sounds is faster.</p>
 </div>
-<div id="direct-realism" class="section level2">
-<h2>Direct Realism</h2>
+<div id="direct-realism" class="section level3">
+<h3>Direct Realism</h3>
 <p>Direct realism builds upon a theory of perception from the visual domain, and suggests we perceive objects and events directly (as a result of experience) rather than reconstructing or interpreting them from the sensory input to the brain. The events in the case of speech perception would be the acoustic signal, rather than the gestures that result in the acoustic signal. This is analogized in the visual domain <span class="math inline">\(\rightarrow\)</span> one sees a candy bar in its wrapper and knows exactly what it is, its weight, its texture, etc., even if occluded by another object, because they have experienced that candy bar before. This would be a different perception than for someone who has never encountered this candy bar before, as the same visual structure will be <em>seen</em> but perceived in a different way.</p>
 </div>
-<div id="trace" class="section level2">
-<h2>TRACE</h2>
+<div id="trace" class="section level3">
+<h3>TRACE</h3>
 <p>Connectionist models of production and perception are rooted in an understanding of the neural implementation of the processing and execution of behaviours. This is a fancy way of saying that the models resemble how researchers believe networks of neurons in the brain operate, that is, in a parallel but hierarchical way. Lower layers are stimulated by an incoming signal, activating features in that level, which in turn activate features in higher levels until a sound (or word) is recognized. The <strong>TRACE</strong> models is a connectionist model.</p>
 <p>The layers or networks of units are the different levels of abstraction. The image below shows a basic TRACE model:</p>
 <p align="center">
@@ -426,9 +430,35 @@ div.tocify {
 </p>
 <p>The Features layer analyzes the incoming speech signal and activates nodes across itme according to various acoustic characteristics. When a node is sufficiently activated (these will have thresholds such that a certain amount of evidence must be present for the node to feed higher-level information), it activates a node above it in a higher layer. Likewise, as nodes in the Phoneme layer become active and past some threshold, nodes in the Word layer becomes active until ultimately a word is recognized.</p>
 </div>
-<div id="fuzzy-logic" class="section level2">
-<h2>Fuzzy logic</h2>
-<p>Fuzzy logic theories of perception (in general) appeal to the probabilistic nature of categorization. So any item has a probability that it is something or not. For example</p>
+<div id="fuzzy-logic" class="section level3">
+<h3>Fuzzy logic</h3>
+<p>Fuzzy logic theories of perception (in general) appeal to the probabilistic nature of categorization. So any item has a probability that it is something or not. For example, in the image below the animal on the right is a bear. What about the animal on the left? You likely assign a probability that the animal on the left is a bear, like 30%, while some features of the animal nudge you to thinking it’s a dog (70%).</p>
+<p align="center">
+<img src="images/fuzzy.png" width="50%" height="50%">
+</p>
+<p>In this way, a fuzzy logic approach to speech perception suggests that speech categories are probabilistic, with phoneme identification following from three stages:</p>
+<ol style="list-style-type: decimal">
+<li>Features are evaluated in order to detect a chunk or unit of sound, which is then assigned probabilities for category membership</li>
+<li>Prototype matching: features that are present in stage 1 are compared with prototypes of phonemes stored in memory</li>
+<li>Pattern classification: best match of phoneme is selected for recognition</li>
+</ol>
+</div>
+</div>
+<div id="word-recognition-theories" class="section level2">
+<h2>Word Recognition Theories</h2>
+<p>There is some overlap between theories of speech percepiton and high-level word recognition (we call it “high level” because the word level is an abstraction above the level of the sound). For example, TRACE and other PDP models very much encompass both speech and word recognition. But there are two historically important theories of word recognition that you should be familiar with: Logogen, and Cohort theory.</p>
+<div id="logogens" class="section level3">
+<h3>Logogens</h3>
+<p>A <strong>logogen</strong> is a neural processing device associated with each word in an individual’s lexicon. The logogen contains all info about the word (phonetic, orthographic, semantic, syntactic, etc.). The logogen monitors production to detect any overlapping information. The logogen becomes more or less active as more and more information confirms a word. Whereas other models (from what we’ve learned) rely solely the acoustic signal to achieve recognition, the logogen uses all information available, including contextual and syntactic information.</p>
+</div>
+<div id="cohort-theory" class="section level3">
+<h3>Cohort theory</h3>
+<p>The <strong>cohort theory</strong> works in ways similar to PDP models, in that when a word is heard, unfolding in time,the various acoustic aspects of the signal initiate activation of word word forms. The initial sound of the incoming signal generates a “cohort” of phonological “neighbours”, or words that begin with that initial sound. In the image below, the incoming “st-” sound activates all the words in the listener’s lexicon beginning with that sequence. This is called the <em>Autonomous stage</em>, when the cohort is activated.</p>
+<p align="center">
+<img src="images/Cohort.png" width="50%" height="50%">
+</p>
+<p>As more and more information is gathered, the <em>Interactive stage</em> begins to whittle down the options based on the bottom-up (acoustic) information arriving over time, but also semantic/contextual information.</p>
+</div>
 </div>
 </div>
 
