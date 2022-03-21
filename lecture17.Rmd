@@ -59,7 +59,13 @@ How do we know that features are real and have a pyshchological reality for the 
 So we have words like “snip”, but not *snim, *snom, *smung, etc. or it has “spot,” but not *spob, *smaf (But what about “spiffy”?)
 English has “Scott,” but not *scock, *skong, etc. [But what about “skunk”].
 
-Phonological processes like *assimilation* 
+Phonological processes like *assimilation* also reveal the necessity of featural units for explanation. Assimiliation patterns in languages result in phonemes becoming more similar to neighboring sounds in terms of some phonetic property. Often the assimilation at the speaker level is so prevalent that it becomes encoded in the lexicon (and consequently spelling). For example, the Latinate prefix, *in-* (meaning "not") in English changes according to the place of articulation of the following consonant:\
+*in-*possible $\rightarrow$ impossible\
+*in-*perfect $\rightarrow$ imperfect, etc.\
+*in-*congruent $\rightarrow$ i[ŋ]congruent\
+In order to describe this sort of variation we must appeal to a feature that takes on the characteristics of the initial sound of the adjective, in this case, a place-of-articulation feature, like [labial] or [velar].
+
+# Syllables
 
 
 
