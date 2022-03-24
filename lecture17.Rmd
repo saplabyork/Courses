@@ -67,5 +67,11 @@ In order to describe this sort of variation we must appeal to a feature that tak
 
 # Syllables
 
+A larger unit of linguistic structure composed of organized gestures and segments (collections of features) is the syllable, which is generally at its bare minimum a vowel. The structure of the syllable can be filled out by one or more consonants either before or after the vowel.  
+We can think of the syllable as giving the rhythm of a word, an organizational timing structure $\rightarrow$ it’s the “clapping” unit around which we time our utterance.
+*Every word* in a language consists of at least one syllable, or one unit of time. 
+People almost always agree on how many syllables a word contains, but linguists and phoneticians have a hard time really defining its acoustic properties. What is the phonetic value of the syllable? We know that the mandatory ingredient, the vowel, is loud and made up of periodic acoustic energy. A good approximation of what the acoustic properties of the syllable are would be a rise in energy (from the consonant) into the vowel, and it turns out that when we look at real speech, if we look for loud parts in the signal they correspond with vowels and thereby the psychological perception of the syllable. 
+
+
 
 
