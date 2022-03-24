@@ -78,7 +78,32 @@ Do you like her or do you *like-like* her?\\
 
 ## Syllable structure
 
+Now that we can agree that syllables are *real* at some level, what are they composed of? We mentioned that syllables minimally are a vowel, which is loud and periodic, but what else? We can organize the syllable into one obligatory part (the **nucleus** which is generally a vowel, but can also be a consonant), and two optional parts, the **coda** and the **onset**, which are consonants. 
 
+**Nucleus**: usually the vowel in the syllable, though there are some consonants that can fulfill this role (which ever consonant has the most open vocal tract configuration if no vowel present)\
+**Onset**: consonants before the nucleus\ 
+**Coda**: consonants after the vowel/nucleus\ 
+**Rhyme**: nucleus + coda
 
+<p align="center">
+  <img src="images/syllable.png" width="40%" height="40%">
+</p>
 
+## Assigning syllable structure
 
+Across the world’s languages there is a preference for how consonants pattern syllabically. Consonants prefer to syllabify with the later syllable as onsets $\rightarrow$ so long as **the language permits words to begin with those particular segments**
+
+So in a word like "grandpa", which we know consists of two syllables, the first syllable is structured such that its coda is complex with -nd. 
+
+<p align="center">
+  <img src="images/syllabification.png" width="50%" height="50%">
+</p>
+
+In order to state that languages of all different sorts have these patterns or preferences, then a subsyllabic unit like onsets and codas must be relevant to the language’s structure.
+
+### The stress foot
+
+The practical/speech consequence of of syllabification can be seen in the designation of *foot* structure in multi-syllable words. The foot allows syllables to cohere together, as a result, we exhibit *stress* on different syllables within the word. Stress is a rather nebulous term that refers to the “beat” within a word $\rightarrow$ rhythmically strong syllable. It's realized as having higher fundamental frequency and/or intensity.
+
+Stress seems to be one way the brain manages the problem of segmentation, but how does it function in the structuring of a word?
+Stress is primary, secondary, and tertiary. **Unstressed syllables are generally phonetically reduced to schwa.**
