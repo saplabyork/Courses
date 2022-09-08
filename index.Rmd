@@ -29,7 +29,7 @@ output:
 # **Introduction to Speech and Language Sciences**
 
 Tuesdays & Thursdays, 11:30-1pm\
-[Stong College](https://www.yorku.ca/colleges/stong/), Rm. 216\
+Ross Building, South Rm. 123\
 Instructor: [Chandan Narayan](https://ch-narayan.github.io)\
 Contact: [chandann@yorku.ca](mailto:chandann@yorku.ca)\
 [Course outline and schedule](LING2200syllabus.html)
