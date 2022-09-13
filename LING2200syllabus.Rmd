@@ -106,6 +106,7 @@ In the period between the last day to drop a course without receiving a grade an
 |      | 9/15 | 2       | Pure and complex sounds             | Ch.1    |              |
 | 2    | 9/20 | 3       | Attributes of sound                 | Ch.1    |              |
 |      | 9/22 | 4       | Praat basics (Lab 1)                | Ch.1    |  Quiz 1      |
+|      |      |         | South Ross 117 D                    |         |              |
 | 3    | 9/27 | 5       | Acoustic resonance                  | Ch.2    | Assignment 1 |
 |      | 9/29 | 6       | Respiration                         | Ch.3    |              |
 | 4    | 10/04| 7       | Laryngeal bones and muscles         | Ch.4    |              |
