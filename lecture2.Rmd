@@ -198,7 +198,7 @@ Aperiodic sounds are not periodic (or quasi-periodic); the waveform does not sho
 
 Periodic complex sounds are made up of frequencies of sound that are *systematically* related to each other:
 
-* The lowest frequency is called the **Fundamental Frequency**. The fundamental frequency is abbreviated ***F~0~***. The fundamental frequency is based on the periodicity of the entire complex sound. The fundamental frequency is not just the frequency of the **lowest component of the complex sound**.
+* The lowest frequency is called the **Fundamental Frequency**. The fundamental frequency is abbreviated ***F~0~***. The fundamental frequency is based on the periodicity of the entire complex sound. The fundamental frequency is just the frequency of the **lowest component of the complex sound**.
 
 * Frequencies above ***F~0~*** are called **harmonics**. For a complex periodic sounds, harmonics are the whole number integer (or a number that can be written down without a fraction part, e.g., 35, 5, 28374) multiples of the fundamental frequency.  
 
