@@ -39,6 +39,40 @@ I would like you to practice:
 2) Download this sound file [praat_prac1.wav](sounds/praat_prac1.wav), save it to your computer, open it in Praat, and measure the duration of the speech\
   Have the answer for next class.
   
+# Some practice
+
+1. Examine the waveform below. What is the frequency?
+
+<p align="center">
+  <img src="images/prac_freq.png" width=75% height=75%>
+</p>
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+Remember what frequency is! It is the number of cycles per second. In this example, the entire duration of the sound is 0.0127s. How many cycles do you see?
+
+
+<p align="center">
+  <img src="images/prac_freq_cycles.png" width=45% height=45%>
+</p>
+
+Answer: There are three cycles in 0.0127s. So the number of cycles in 1s is 3/0.0127 = 236.22 or roughly 236Hz.
+</div>
+<br>
+2. Suppose you have a 10ml container that has a pressurized gas at 50kPa. If you compress the container so that it is now 5ml, what is the pressure of the gas?
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+Boyle's Law: P1V1=P2V2; P1=50kPa, V1=10ml; V2=5ml, P2=?
+Answer=100kPa
+</div>
+
+***
 # Pure and complex sounds
 
 A sound can be composed of one or more frequencies $\rightarrow$ remember that these frequencies represent the movement of the sound wave (itself made up of the movement of air molecules)
@@ -52,11 +86,6 @@ If a sound consists of a single frequency it is called a **pure tone**. A pure t
 </p>
 
 Musicians among you may know this tone as the note "A" in a Western traditional 12-tone scale system. If you have a piano or keyboard nearby, play this tone, then the "A" key. Are they the same note? How does your piano (or any other in-tune instrument) sound different from the tone?
-
-<p align="center">
-  <img src="images/a440.jpeg" width="75%" height="75%">
-</p>
-
 
 Listen to the two sounds one after the other:
 
