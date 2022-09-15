@@ -29,7 +29,7 @@ In this lecture we begin to  dive deeper into the *shape* of sound--how it looks
 
 # Praat installation
 
-It's very important that you install Praat [www.prat.org](https://www.praat.org) on your computer. Praat is a speech analysis tool which has become a default program on every linguist's computer. I want you to get exposed to a bit about how it works and what you can do with it. It will soon become imperative that you familiarize yourself with this powerful tool as it will be critically important for your future careers in linguistics and speech science.
+It's very important that you install Praat [www.praat.org](https://www.praat.org) on your computer. Praat is a speech analysis tool which has become a default program on every linguist's computer. I want you to get exposed to a bit about how it works and what you can do with it. It will soon become imperative that you familiarize yourself with this powerful tool as it will be critically important for your future careers in linguistics and speech science.
 
 Follow the instructions to install Praat on your computer (Mac or PC). For your homework, I'd like you to follow along with the first two videos in this [series](https://www.youtube.com/channel/UCqU1JprLislAb-lV8Fw_FqA): [Tutorial 1](https://youtu.be/fjlFNOzfdPo) and [Tutorial 2](https://youtu.be/xl-6k4FFd6U)
 
