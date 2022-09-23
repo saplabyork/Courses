@@ -40,6 +40,11 @@ y(x) = A \times sin(2\pi fx)
 
 Why $2\pi$? The period of the sine function is $2\pi$, which means that the value of the function is the same every $2\pi$ radians, which is a unit of angular measurement. So the curve varies over $2\pi$ radians over the course of one period(t). So because $f=\frac{1}{t}$ the sine formula above can be re-written as $sin(\frac{2\pi}{t}x)$. 
 
+<p align="center">
+  <img src="images/6HV.gif">
+</p>
+\
+
 ## Synthesizing a pure tone
 
 OK, so let's say we want to create a pure tone in Praat. Praat allows you to do this using a fill-in window were you specify the frequency and hit a button and there you go. *But* we're not going to do it this way. Suppose we want to make a 3 second 377Hz tone:
