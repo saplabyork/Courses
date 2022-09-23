@@ -197,7 +197,7 @@ Intensity is related (broadly) to amplitude, but conveys a a different **message
 
 **Power** is the amount of energy expanded in one second $\rightarrow$ measured in Watts ($W$). **Intensity** is the power per one unit of area (generally a square meter), or energy per second ($W$) per square meter ($m^2$).
 
-If we say that a sound has an intensity of $10^{-6} W/m^2$ we're actually referring to its *absolute intensity*. We can also refer to the sound's *relative intensity* compared to a reference intensity. This relative measure is useful for a more practical application of sound intensity in the form of *decibel*, which we're used to seeing as a measure of loudness. 
+If we say that a sound has an intensity of $10^{-6} W/m^2$ we're actually referring to its *absolute intensity*. We can also refer to the sound's *relative intensity* compared to a reference intensity. **This relative measure is useful for a more practical application of sound intensity** in the form of *decibel*, which we're used to seeing as a measure of loudness. 
 
 ### Decibels
 
