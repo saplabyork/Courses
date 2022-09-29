@@ -13,7 +13,7 @@
 
 <title>Attributes of sound</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -64,6 +64,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -309,7 +317,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -678,14 +686,24 @@ introduced the <strong>decibel</strong>, which is <span
 class="math inline">\(1/10^{th}\)</span> a Bel. As a result, your 2.3
 Bels x 10 = 23 decibels (dB). A decibel is 10 x <span
 class="math inline">\(log_{10}\frac{I~x~}{I~r~}\)</span>.</p>
-<p>Try the following problem:</p>
+<p>Try the following problems:</p>
 <blockquote>
 <p>A large orchestra has an absolute intensity of 6.2 x <span
 class="math inline">\(10^{-3} W/m^2\)</span>. What is the intensity of
 the orchestra, expressed in decibels, given the standard reference
 intensity of <span class="math inline">\(10^{-12} W/m^2\)</span>?</p>
 </blockquote>
-<p>We will discuss the answer in class.</p>
+<blockquote>
+<p>If your friend is talking to you at an intensity of <span
+class="math inline">\(10^{-11} W/m^2\)</span>, what would the amplitude
+be in dB IL?</p>
+</blockquote>
+<blockquote>
+<p>The power rule says <span class="math inline">\((x^{m})^{n} =
+x^{mn}\)</span>. If a sound has an intensity of <span
+class="math inline">\(100^{-6} W/m^2\)</span>, what is its amplitude in
+dB IL?</p>
+</blockquote>
 </div>
 </div>
 </div>
