@@ -47,7 +47,7 @@ The tree consists of a branching system (like real trees) of hollow tubes that s
 
 ## Trachea
 
-The trunk or trachea of the pulmonary system is a tube lined on the outside with rings of cartilage, which are closed in the front and optn in the back. The trachea itself is made of muscle, cartilage, and a mucous membrane $\rightarrow$ flexible and supported by the cartilage. Remember the negative presure in the neck of the Helmholtz resonator? Well, a similar negative pressure is created in the trachea when there is high pressure down stream in the bronchioles. 
+The trunk or trachea of the pulmonary system is a tube lined on the outside with rings of cartilage, which are closed in the front and open in the back. The trachea itself is made of muscle, cartilage, and a mucous membrane $\rightarrow$ flexible and supported by the cartilage. Remember the negative presure in the neck of the Helmholtz resonator? Well, a similar negative pressure is created in the trachea when there is high pressure down stream in the bronchioles. 
 
 ## Bronchi
 
