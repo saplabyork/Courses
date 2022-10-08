@@ -56,7 +56,7 @@ Work on the below problems then watch this [video](), which has the solutions I'
 *Use 331m/s as the speed of sound in air*
 
 2. What is the wavelength of a pure tone with a frequency of 3kHz?
-3. What is the period of a tone with a wavelength of 600cm?
+3. What is the period (in ms) of a tone with a wavelength of 600cm?
 
 ## Intensity to dB
 
