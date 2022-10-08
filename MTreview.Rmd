@@ -69,4 +69,4 @@ Work on the below problems then watch this [video](), which has the solutions I'
 *Use 331m/s as the speed of sound in air*
 
 7. What is the 4th resonance of an open-open tube that's 1m long?
-8. How long is a tube that has an $F_2$ of 1500Hz?
+8. How long is an open-closed tube that has an $F_2$ of 1500Hz?
