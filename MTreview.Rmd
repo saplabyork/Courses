@@ -61,7 +61,7 @@ Work on the below problems then watch this [video](), which has the solutions I'
 ## Intensity to dB
 
 4. Suppose a sound has an intensity of 5.5 x $10^{-5}$ $W/m^2$. How loud is this sound in decibels?
-5. If a reference sound has an intensity of 0.04 $W/m^2$, what is its value in decibels?
+5. If a sound has an intensity of 0.04 $W/m^2$, what is its value in decibels?
 6. What is the absolute intensity in $W/m^2$ of a sound that is 60dB?
 
 ## Tube resonances
