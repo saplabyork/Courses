@@ -45,7 +45,7 @@ Here are the concepts that will be important for you to review:
 
 # Practice problems
 
-Work on the below problems then watch this [video](), which has the solutions I've worked out.
+Work on the below problems then watch this [video](https://yorku.zoom.us/rec/play/DuI-RwvEamQkIqecRzGalgjLZmX67BIVTgwJV8zzBzqcmNX88_2WvV208qlyRok4P78VLu29tJMtEhx7.zFfHKNJLvu_ugbio?continueMode=true), which has the solutions I've worked out.
 
 ## Pressure and volume
 
