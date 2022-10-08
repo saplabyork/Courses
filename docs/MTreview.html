@@ -9,16 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Chandan Narayan" />
 
-<meta name="date" content="2022-12-03" />
 
-<title>Class vowels</title>
+<title>Practice problems and MT review</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -31,9 +29,13 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="images/logo.jpeg">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -228,6 +230,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +300,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -293,133 +368,98 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Class vowels</h1>
-<h4 class="author">Chandan Narayan</h4>
-<h4 class="date">12/03/2022</h4>
+<h1 class="title toc-ignore">Practice problems and MT review</h1>
 
 </div>
 
 
-<div id="task" class="section level2">
-<h2>Task</h2>
-<p>You were asked to record yourself saying “heat,” “heat,” “hoot,”
-“hot,” and “hut,” and then measure F1 and F2 for each word from the
-steady-state portion of the vowel. The resulting data are here:</p>
-<pre class="r"><code>vowels &lt;- read.csv(&quot;LING2200_vowels.csv&quot;, header=TRUE)
-vowels</code></pre>
-<pre><code>##    sub vowel      F1      F2
-## 1   CN  heat  302.30 2390.78
-## 2  AMV  heat  328.90 2962.46
-## 3   QD  heat  298.82 2992.94
-## 4   AD  heat  401.00 2335.64
-## 5   EP  heat  371.75 2952.28
-## 6   EL  heat  315.96 2153.95
-## 7   RB  heat  393.70 3272.90
-## 8   SS  heat  373.26 3108.01
-## 9   DN  heat  292.89 2606.02
-## 10 WZW  heat  247.04 2464.30
-## 11 SLS  heat  287.49 2943.58
-## 12  MG  heat  390.02 3161.59
-## 13  MR  heat  385.50 2746.54
-## 14  JB  heat  294.42 2890.58
-## 15  AA  heat  336.47 2985.85
-## 16  SP  heat  418.27 3157.54
-## 17  ET  heat  371.80 2618.40
-## 18  FR  heat  262.72 2694.68
-## 19  NR  heat  359.77 3016.47
-## 20  CN  hoot  328.52 1138.56
-## 21 AMV  hoot 1061.09 2275.30
-## 22  QD  hoot  315.16 1195.92
-## 23  AD  hoot  393.99  878.52
-## 24  EP  hoot  360.37  859.86
-## 25  EL  hoot  469.36 1279.69
-## 26  RB  hoot  444.90 1223.10
-## 27  SS  hoot  308.79 1081.36
-## 28  DN  hoot  280.27 1012.43
-## 29 WZW  hoot  779.70 2689.58
-## 30 SLS  hoot  284.08 1078.30
-## 31  MG  hoot  454.06 1550.18
-## 32  MR  hoot  476.46  874.14
-## 33  JB  hoot  369.83 1251.17
-## 34  AA  hoot  294.68 1486.44
-## 35  SP  hoot  409.12 1161.44
-## 36  ET  hoot  415.30 1282.30
-## 37  FR  hoot  662.08 1918.90
-## 38  NR  hoot  412.63 1614.33
-## 39  CN   hot  790.62 1093.18
-## 40 AMV   hot 1065.54 1603.96
-## 41  QD   hot  927.12 1333.79
-## 42  AD   hot  937.93 1392.42
-## 43  EP   hot  743.24 1182.43
-## 44  EL   hot  983.92 1334.31
-## 45  RB   hot  850.60 1260.20
-## 46  SS   hot  945.89 1116.58
-## 47  DN   hot  791.78 1173.77
-## 48 WZW   hot  918.16 1084.02
-## 49 SLS   hot  938.67 1616.32
-## 50  MG   hot  931.07 1555.34
-## 51  MR   hot  929.91 1375.95
-## 52  JB   hot  695.09 1060.07
-## 53  AA   hot  890.02 1231.14
-## 54  SP   hot  888.33 1289.43
-## 55  ET   hot  893.20 1191.00
-## 56  FR   hot  903.25 1591.87
-## 57  NR   hot  800.15 1250.57
-## 58  CN  hate  443.24 2225.84
-## 59 AMV  hate  352.66 2915.82
-## 60  QD  hate  363.95 2590.69
-## 61  AD  hate  506.07 2864.41
-## 62  EP  hate  402.11 2662.44
-## 63  EL  hate  481.35 2199.11
-## 64  RB  hate  393.00 2611.80
-## 65  SS  hate  299.16 1216.32
-## 66  DN  hate  434.55 2598.98
-## 67 WZW  hate  480.84 2094.04
-## 68 SLS  hate  405.66 2963.12
-## 69  MG  hate  484.39 2862.51
-## 70  MR  hate  474.89 2429.70
-## 71  JB  hate  393.73 2807.16
-## 72  AA  hate  468.32 2442.03
-## 73  SP  hate  422.85  979.12
-## 74  ET  hate  404.20 2590.30
-## 75  FR  hate  529.92 2720.17
-## 76  NR  hate  467.30 2269.37
-## 77  CN   hut  727.88 1347.71
-## 78 AMV   hut 1014.92 1952.35
-## 79  QD   hut  643.79 1595.44
-## 80  AD   hut  885.99 1850.27
-## 81  EP   hut  734.88 1372.93
-## 82  EL   hut  998.35 1594.93
-## 83  RB   hut  922.00 1503.20
-## 84  SS   hut  897.59 1660.27
-## 85  DN   hut  721.03 1289.78
-## 86 WZW   hut  929.04 1368.95
-## 87 SLS   hut  828.50 1165.79
-## 88  MG   hut  815.93 1726.62
-## 89  MR   hut  720.98 1465.47
-## 90  JB   hut  694.17 1551.39
-## 91  AA   hut  699.97 1763.88
-## 92  SP   hut  821.80 1633.42
-## 93  ET   hut  799.50 1564.60
-## 94  FR   hut  771.72 1700.56
-## 95  NR   hut  825.86 1465.82</code></pre>
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+<div id="mt" class="section level1">
+<h1>MT</h1>
+<p>The midterm will cover all of the materials from Lectures 1-7.
+Although the materials you’ll be tested on come from the lecture notes
+and not strictly the textbook, if you do have the textbook, it might be
+useful for you to review the lecture topics in order to get any
+additional clarity on topics.</p>
+<p>The midterm will have 20 questions and be a combination of multiple
+choice/true-false (11) and short answer problems (9). <strong>This is a
+closed book test, but you may have a calculator.</strong> You’ll have
+the entire class time to complete the test.</p>
+<p>Here are the concepts that will be important for you to review:</p>
+<ul>
+<li>Tube resonances (quarter- and half-wave tubes)</li>
+<li>Absolute intensity to dB calculation</li>
+<li>The pressure dynamics of respiration (i.e., why/how lungs expand and
+how it’s affected by changes in pressure)</li>
+<li>Complex periodic waves and how to read its spectrum
+representation</li>
+<li>The various forces acting on air molecules that have been excited
+from equilibrium position resulting in sound</li>
+<li>The relationship between frequency and period of a periodic
+wave</li>
+<li>How to add two sine waves (similar to the quiz)</li>
+<li>How to determine the frequency and harmonics of a complex periodic
+wave from the time x amplitude waveform representation</li>
+<li>Boyle’s law</li>
+<li>The relationship between frequency and wavelength</li>
+<li>RMS amplitude</li>
+<li>Laryngeal anatomy (the major bone and cartilages and their functions
+and location)</li>
+</ul>
 </div>
-<div id="class-vowel-space" class="section level2">
-<h2>Class vowel space</h2>
-<p>Here is the code to generate the vowel space for the class:</p>
-<pre class="r"><code>library(ggplot2)
-vowel_plot &lt;- ggplot(vowels, aes(x = F2, y = F1, color = vowel, label = vowel)) + labs(title = &quot;LING2200 vowel space&quot;) +
-     geom_text() + xlim(0,4000) + ylim(0,1500) + scale_y_reverse() + scale_x_reverse() +  stat_ellipse() + theme_bw()</code></pre>
-<pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which will
-## replace the existing scale.</code></pre>
-<pre><code>## Scale for &#39;x&#39; is already present. Adding another scale for &#39;x&#39;, which will
-## replace the existing scale.</code></pre>
-<pre class="r"><code>vowel_plot</code></pre>
-<p><img src="vowels_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<div id="practice-problems" class="section level1">
+<h1>Practice problems</h1>
+<p>Work on the below problems then watch this <a href="">video</a>,
+which has the solutions I’ve worked out.</p>
+<div id="pressure-and-volume" class="section level2">
+<h2>Pressure and volume</h2>
+<ol style="list-style-type: decimal">
+<li>A 5L container has a gas that exerts a pressure of 25Pa. I built a
+“doubling” machine that increases the volume of the container to 25L.
+What is the new pressure of the gas?</li>
+</ol>
+</div>
+<div id="frequency-period-wavelength" class="section level2">
+<h2>Frequency, period, wavelength</h2>
+<p><em>Use 331m/s as the speed of sound in air</em></p>
+<ol start="2" style="list-style-type: decimal">
+<li>What is the wavelength of a pure tone with a frequency of 3kHz?</li>
+<li>What is the period of a tone with a wavelength of 600cm?</li>
+</ol>
+</div>
+<div id="intensity-to-db" class="section level2">
+<h2>Intensity to dB</h2>
+<ol start="4" style="list-style-type: decimal">
+<li>Suppose a reference sound has an intensity of 5.5 x <span
+class="math inline">\(10^{-5}\)</span> <span
+class="math inline">\(W/m^2\)</span>. How loud is this sound in
+decibels?</li>
+<li>If a reference sound has an intensity of 0.04 <span
+class="math inline">\(W/m^2\)</span>, what is its value in
+decibels?</li>
+<li>What is the absolute intensity in <span
+class="math inline">\(W/m^2\)</span> of a sound that is 60dB?</li>
+</ol>
+</div>
+<div id="tube-resonances" class="section level2">
+<h2>Tube resonances</h2>
+<p><em>Use 331m/s as the speed of sound in air</em></p>
+<ol start="7" style="list-style-type: decimal">
+<li>What is the 4th resonance of an open-open tube that’s 1m long?</li>
+<li>How long is a tube that has an <span
+class="math inline">\(F_2\)</span> of 1500Hz?</li>
+</ol>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -452,6 +492,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
