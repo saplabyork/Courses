@@ -231,3 +231,5 @@ Try the following problems:
 > What is the value, in dB of a sound that has an absolute intensity of $0.1^{5} W/m^2$?
 
 > What is the difference, in dB, between two sounds, one with an absolute intensity of $10^{3} W/m^2$ and the other with an abolsute intensity of $10^{2} W/m^2$
+
+I've solved these [here](https://yorku.zoom.us/rec/share/jPxJ0BK4Df-KfjJSrDwvcW8zRBr6NtFoXuhkJiAnO9sbWT1ACq-UbAlfcPPppbQC.l_jsQ7HLk3rEyINw)
