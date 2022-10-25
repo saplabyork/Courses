@@ -28,7 +28,7 @@ Today's mini-lecture (the second half of the lecture is dedicated to reviewing t
 
 #  The myoelastic/aerodynamic theory of phonation
 
-In our last lecture we noted the complexities involved in the movement of vocal folds given the highly variable nature of their composition as well as their elongation and position governed by muscular control of the arytenoids and associated muscles. 
+In our last lecture we noted the complexities involved in the movement of [vocal folds](https://www.youtube.com/watch?v=yn12x2SJrNM) given the highly variable nature of their composition as well as their elongation and position governed by muscular control of the arytenoids and associated muscles. 
 The most widely accepted theory explaining the nature of vocal fold vibration or oscillation is called the **myoelastic** theory, which explains oscillation as the interaction between muscle forces (*myo-*), tissue elasticity, and air pressure flow. 
 
 The myoelastic/aerodynamic theory of phonation was first described by the Dutch speech scientist [van den Berg](https://en.wikipedia.org/wiki/Janwillem_van_den_Berg) in 1958. It basically states that vocal folds open up due to sub-glottal pressure and close due to elastic and aerodynamic pressures. But that's too simplistic. Here are the specific steps:
