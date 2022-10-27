@@ -110,20 +110,22 @@ In the period between the last day to drop a course without receiving a grade an
 | 3    | 9/27 | 5       | Acoustic resonance                  | Ch.2    | Assignment 1 |
 |      | 9/29 | 6       | Respiration                         | Ch.3    |              |
 | 4    | 10/04| 7       | Laryngeal bones and muscles         | Ch.4    |              |
-|      | 10/06| 8       | Voice quality; Review               | Ch.4    |              |
+|      | 10/06|         | Review                              |         |              |
 |      | 10/11|         | **Reading week**                    |         |              |
 | 5    | 10/18|         | **Midterm**                         |         |              |
-|      | 10/20| 9       | Articulation and resonance          | Chs.6,7 |              |
-| 6    | 10/25| 10      | Audition: Ear anatomy               | Ch.8    |              |
-|      | 10/27| 11      | General auditory perception         | Ch.8    |              |
-| 7    | 11/01|         | Spectrogram lab                     |         |              |
-|      | 11/03| 12      | Consonant perception                | Ch.8,6  |   Quiz 2     |
-| 8    | 11/08| 13      | Hearing loss, speech perception     | Ch.6    |              |
-|      | 11/10| 14      | Motor control, production           | Ch.9    | Assignment 2 |
-| 9    | 11/15| 15      | Speech perception theories          | Ch.12   |              |
-|      | 11/17| 16      | Building words                      | Ch.12   |              |
-| 10   | 11/22| 17      | Parts of words                      |         |              |
-|      | 11/24| 18      | ~~Organization above speech~~       |         | Quiz 3       |
-| 11   | 11/29| 19      | Review 1                            |         | Assignment 3 |
-|      | 12/01| 20      | Review 2                            |         |              |
-| 12   | 12/06| 21      | --                                  |         |              |
+|      | 10/20|         | No class                            |         |              |
+| 6    | 10/25| 8       | Voice quality                       | Ch.4    |              |
+|      | 10/27| 9       | Articulation and resonance          | Chs.6,7 |              |
+| 7    | 11/1 | 9,10    | Audition                            | Chs.7,8 |              |
+|      | 11/3 | 10      | Audition: Ear anatomy               | Ch.8    |              |
+| 8    | 11/8 | 11      | General auditory perception         | Ch.8    |              |
+|      | 11/10|         | Spectrogram lab                     |         |              |
+| 9    | 11/15| 12      | Consonant perception                | Ch.8,6  |   Quiz 2     |
+|      | 11/17| 13      | Hearing loss, speech perception     | Ch.6    |              |
+| 10   | 11/22| 14      | Motor control, production           | Ch.9    | Assignment 2 |
+|      | 11/24| 15      | Speech perception theories          | Ch.12   |              |
+| 11   | 11/29| 16      | Building words                      | Ch.12   |              |
+|      | 12/01| 17      | Review                              |         |              |
+| 12   | 12/6 |         | Final Exam                          |         |              |
+
+
