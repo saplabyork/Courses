@@ -113,4 +113,4 @@ Can you calculate the difference in F0?
 
 ## Variability in F0
 
-Because the vocal fold oscillation is close to being period, but not quite, we have come up with ways to describe variation in F0. If there is variability in the *timing* between cycles of oscillation it is called *jitter*. If there is variability in the *amplitude* of the cycles, it is called *shimmer*. Jitter and shimmer reveal a lot about the speaker. They are called "indexical" characteristics of the speaker and help the listener identify who is speaking because we all have inherent variability in our F0.
+Because the vocal fold oscillation is close to being periodic, but not quite, we have come up with ways to describe variation in F0. If there is variability in the *timing* between cycles of oscillation it is called *jitter*. If there is variability in the *amplitude* of the cycles, it is called *shimmer*. Jitter and shimmer reveal a lot about the speaker. They are called "indexical" characteristics of the speaker and help the listener identify who is speaking because we all have inherent variability in our F0.
