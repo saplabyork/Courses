@@ -1,8 +1,7 @@
 ---
 title: "LING2200syllabus"
 output: 
-  html_document:
-  theme: paper
+  html_document
 ---
 
 ```{r setup, include=FALSE}
