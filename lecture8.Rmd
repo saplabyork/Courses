@@ -89,7 +89,7 @@ The glottal spectrum has to be inferred from the sound coming out of a mouth, th
 
 If the first harmonic (F0) is 200Hz with an amplitude of 36dB, the harmonic at 400Hz (H2) will have an amplitude of 24dB. The harmonic with 800Hz (H4) will have an amplitude of 12dB, the harmonic at 1600Hz (H8) will have an amplitude of 0dB.
 
-Do you want to synthesize a glottal spectrum in Praat? Here is a good [tutorial](https://www.fon.hum.uva.nl/praat/manual/Source-filter_synthesis_1__Creating_a_source_from_pitch.html)
+Do you want to synthesize a glottal spectrum in Praat? Here is a good [tutorial](https://www.fon.hum.uva.nl/praat/manual/Source-filter_synthesis_1__Creating_a_source_from_pitch.html).
 
 ## Harmonic spacing
 
