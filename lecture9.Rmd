@@ -76,6 +76,12 @@ $$
 $$
 4L = \frac{34000}{500}; L = \frac{68}{4} = 17cm
 $$
+Here is a nice image that describes the vocal tract resonances when your mouth is in the configuration for schwa. This will take you back to the tube resonances [lecture](https://saplabyork.github.io/Courses/lecture5.html#Tube_resonance). Notice schwa is modeled as a quarter-wave resonator, with the closed end (node) being at the glottis and the open end (antinode) at the lips.
+
+<p align="center">
+  <img src="images/formants_sagittal.png">
+</p>
+\
 
 ### Measuring your vocal tract
 
