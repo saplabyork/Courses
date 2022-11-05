@@ -104,9 +104,9 @@ The middle ear muscles also contract during vocalization as well, thereby attenu
 
 The middle ear performs three functions:
 
-1. It increases the amount of acoustic energy that gets transmitted to the inner ear by overcoming the impedance mismatch betwen the middle and inner ear. **Impedance** Impedance is a measure of the difficulty of transmitting a signal through a medium. The reason why it's difficult to hear someone talking outside of the pool when your head is under water is due to the impedance mismatch between air and water as media for sound. 
+1. It increases the amount of acoustic energy that gets transmitted to the inner ear by overcoming the impedance mismatch between the middle and inner ear. **Impedance** is a measure of the difficulty of transmitting a signal through a medium. The reason why it's difficult to hear someone talking outside of the pool when your head is under water is due to the impedance mismatch between air and water as media for sound. 
 
-Due to the difference in impedance between the air filled middle ear and the fluid filled inner ear, acoustic energy is reflected, and very little energy is transmitted to the fluid $\rightarrow$ increase the amplitude of the pressure changes at the oval window, which for many reasons is increased by 30dB
+Due to the difference in impedance between the air filled middle ear and the fluid filled inner ear, acoustic energy is reflected, and very little energy is transmitted to the fluid inside the cochlea $\rightarrow$ increase the amplitude of the pressure changes at the oval window, which for many reasons is increased by 30dB.
 Only about half of the acoustic energy arriving at the tympanic membrane actually ends up being transmitted to the inner ear.
 
 <p align="center">
@@ -129,7 +129,11 @@ The cochlea is housed within the temporal bone (the bone that we called the "tem
   <img src="images/cochlea2.webp" width="50%" height="50%">
 </p>
 
-The stapes of the ossicles attaches to the cochlea at its base through a small entry called the **oval window**. If the cochlea spiral were unrolled you would notice that it is actaully made up of two bony channels, and a membranous channel in between. The bony channels are called the **Scala vestibuli** (or *vestibular canal*) and the **Scala tympani** (or *tympanic canal*). The scala vestibuli lies superior to the scala tympani. Both canals are filled with **perlymph**, a liquid that is set into motion by the piston like movement of the stapes (which is itself set into motion by the moving tympanic membrane). The perilymph is pushed along the scala vestibuli, up the spiral. At the apex, the scala vestibula and the scala tympani meet, and the perilymph travels back down the spiral through the scala tympani. 
+The stapes of the ossicles attaches to the cochlea at its base through a small entry called the **oval window**. If the cochlea spiral were unrolled you would notice that it is actually made up of two bony channels, and a membranous channel in between. The bony channels are called the **Scala vestibuli** (or *vestibular canal*) and the **Scala tympani** (or *tympanic canal*). The scala vestibuli lies superior to the scala tympani. Both canals are filled with **perlymph**, a liquid that is set into motion by the piston like movement of the stapes (which is itself set into motion by the moving tympanic membrane). The perilymph is pushed along the scala vestibuli, up the spiral. At the apex, the scala vestibula and the scala tympani meet, and the perilymph travels back down the spiral through the scala tympani. 
+
+<p align="center">
+  <img src="images/cochlea_detail.jpeg">
+</p>
 
 The pushed perilymph ultimately distends a small opening at the base of the scala tympani called the **round window**, which is covered by a membrane allowing the perilymph to push out (imagine pushing on a water balloon).
 
@@ -139,6 +143,10 @@ The pushed perilymph ultimately distends a small opening at the base of the scal
 
 As the perilymph travels up the scala vestibuli (and down the scala tympani) it distends the membranous layer separating the bony canals from the **cochlear duct**. The superior membrane is called **Reissner's membrane** and the inferior membrane is called the **Basilar membrane**. The wave (that is the perilymph), introduces a comparable wave in the **endolymph** which fills the cochlear duct. More importantly, the wave in the perilymph distends the basilar membrane upwards when it reaches its peak amplitude. Here imagine the wave being like the that in the rope below. 
 
+<p align="center">
+  <img src="images/basilar_movement.gif">
+</p>
+
 ![](https://ds055uzetaobb.cloudfront.net/uploads/RemWkGv8Lh-rope1.gif)
 
 The crest of the wave pushes up on the basilar membrane and when it does so, the **hair cells** lying on top of it, in a structure called the **organ of corti**, are pushed up (in a *shearing action*) an into a covering membrane called the **tectorial membrane**. When this happens the hair cells, which are connected to the auditory nerve going to the brain, fire electrical impulses. 
@@ -146,6 +154,10 @@ The crest of the wave pushes up on the basilar membrane and when it does so, the
 ### Basilar membrane
 
 The basilar membrane, which is the inferior wall of the cochlear duct, is not uniform in width or density. The base end, closer to the "bottom" of the cochlear spiral, is narrow,stiff, and thick, and it gets wider, thinner, and less stiff as it gets closer to the apex. This changing width and thickness results in the membrane being more or less pliant at different parts of the membrane. The area closer to the base, being thick are more sensitive to high frequencies, while the wider, thinner apex area is more sensitive to low frequencies. The apex end is 100 times more flexible than the basal end.
+
+<p align="center">
+  <img src="images/cochlea_width.png">
+</p>
 
 So the physical characteristics of the basilar membrane allows different frequencies of sound to fire hair cells at different portions of the membrane. This is called **Tonotopic organization**. This was discovered by the Hungarian biophysicist [Georg von Bekesy](https://en.wikipedia.org/wiki/Georg_von_B%C3%A9k%C3%A9sy). Below is an animation demonstrating the varying compliance of the basilar membrane at different frequencies.
 
