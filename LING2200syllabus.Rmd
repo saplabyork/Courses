@@ -123,8 +123,8 @@ In the period between the last day to drop a course without receiving a grade an
 | 8    | 11/8 | 11      | General auditory perception         | Ch.8    |              |
 |      | 11/10|         | Spectrogram lab                     |         |              |
 | 9    | 11/15| 12      | Consonant perception                | Ch.8,6  |   Quiz 2     |
-|      | 11/17| 13      | Hearing loss, speech perception     | Ch.6    |              |
-| 10   | 11/22| 14      | Motor control, production           | Ch.9    | Assignment 2 |
+|      | 11/17| 13      | Hearing loss, speech perception     | Ch.6    | Assignment 2 |
+| 10   | 11/22| 14      | Motor control, production           | Ch.9    |              |
 |      | 11/24| 15      | Speech perception theories          | Ch.12   |              |
 | 11   | 11/29| 16      | Building words                      | Ch.12   |              |
 |      | 12/01| 17      | Review                              |         |              |

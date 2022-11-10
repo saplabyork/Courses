@@ -62,7 +62,7 @@ Others look to the dynamic variability itself, combined with contextual informat
 
 We hinted earlier as to the role of *formants* in communicating the quality of a vowel, essentially revealing the sizes of the oral and pharyngeal cavities, which affect F1 and F2. Listeners can categorize a vowel sound with basically these two formants. Vowels are generally more intense than consonants $\rightarrow$ it's really what we end up hearing when we listen to speech. The consonants are chaped by the vowels. 
 
-But there is a problem: formant values overlap, considerably, so two different vowels might have very similar formants (F1 and F2). Consider the image below, which shows the formant values for various vowels from English as spoken by men, women, and children (the data are from the famous vowel survey of Peterson and Barney (1952)). ** Practice your vowel here: [https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm](https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm) **
+But there is a problem: formant values overlap, considerably, so two different vowels might have very similar formants (F1 and F2). Consider the image below, which shows the formant values for various vowels from English as spoken by men, women, and children (the data are from the famous vowel survey of Peterson and Barney (1952)). ** Practice your vowels here: [https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm](https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm) **
 
 <p align="center">
   <img src="images/PB.png" width="60%%" height="60%">
