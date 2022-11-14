@@ -30,8 +30,8 @@ navbar:
       href: lecture11.html
     - text: "Lecture 12"
       href: lecture12.html
-    # - text: "Lecture 13"
-    #   href: lecture13.html
+    - text: "Lecture 13"
+      href: lecture13.html
     # - text: "Lecture 14"
     #   href: lecture14.html
     # - text: "Lecture 15"
