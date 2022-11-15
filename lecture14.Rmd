@@ -24,6 +24,17 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ----
 
+Before we start today's lecture, let's look at your vowel space from Assignment 2.
+
+```{r echo=TRUE}
+library(ggplot2)
+data <- read.csv("LING2200_vowels_2022.csv", header=TRUE)
+vowel_space <- ggplot(data, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
+vowel_space
+```
+
+----
+
 # Hearing loss, speech perception
 
 A typically developing human will acquire the fundamental aspects of their language by the age of 2-4 years old, with the phonetic system taking shape by the end of their first year. For this to happen, the auditory system (and consequently perception) must be relatively normal or uninterrupted. But what are the consequences for speech perception and language when audition is somehow impaired?
