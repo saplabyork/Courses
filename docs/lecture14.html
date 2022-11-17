@@ -387,6 +387,14 @@ div.tocify {
 }
 </style>
 <hr />
+<p>Before we start today’s lecture, let’s look at your vowel space from
+Assignment 2.</p>
+<pre class="r"><code>library(ggplot2)
+data &lt;- read.csv(&quot;LING2200_vowels_2022.csv&quot;, header=TRUE)
+vowel_space &lt;- ggplot(data, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
+vowel_space</code></pre>
+<p><img src="lecture14_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<hr />
 <div id="hearing-loss-speech-perception" class="section level1">
 <h1>Hearing loss, speech perception</h1>
 <p>A typically developing human will acquire the fundamental aspects of
