@@ -53,10 +53,10 @@ LING 1000 and PSYC 1010. This class is predicated on your knowing some fundament
 
 Your grade in the course will be determined by your performance on the following:
 
-* 30% Assignments (3 x 10% each)
-* 15% Quizzes (3 x 5% each)
-* 20% Midterm Test
-* 30% Final Exam
+* 30% Assignments (2 x 15% each)
+* 15% Quizzes (Quiz 1--5%; Quiz 2--10%)
+* 25% Midterm Test
+* 25% Final Exam
 * 5% Class participation
 
 ## Course text and readings
