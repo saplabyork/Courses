@@ -34,8 +34,8 @@ navbar:
       href: lecture13.html
     - text: "Lecture 14"
       href: lecture14.html
-    # - text: "Lecture 15"
-    #   href: lecture15.html
+    - text: "Lecture 15"
+      href: lecture15.html
     # - text: "Lecture 16"
     #   href: lecture16.html
     # - text: "Lecture 17"
