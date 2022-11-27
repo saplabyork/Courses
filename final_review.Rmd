@@ -45,3 +45,12 @@ Here are some of the concepts that will definitely be on the test:
 19. Ear anatomy
 20. Theories of phonation/vocal fold oscillation
 21. Conversion from absolute intensity to dB 
+
+# Practice problems
+Use 330m/s as the speed of sound.
+
+1. If you wanted to amplify a the 400Hz component of a complex periodic that is introduced to an open-open tube, how long (in cm) should the tube be? 
+
+2. If we model the neutral vowel (schwa) as an open-closed tube, what is its length (in cm) if the third resonance is 2.6kHz.
+
+3. What would the dB reading be for a sound with an absolute intensity of $100^{-2} W/m^2$?
