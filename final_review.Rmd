@@ -1,0 +1,47 @@
+---
+title: "Final test review"
+output:
+  html_document:
+    includes:
+      in_header: "favicon.html"
+    theme: paper
+    toc: true
+    toc_float: true
+    collapsed: true
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
+---
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+# Cumulative test
+
+The final test is cumulative, with equal distribution of material from across the early and later weeks of the course. The test will be in class and you will have 1.5hrs to complete it. 
+
+Here are some of the concepts that will definitely be on the test:
+
+1. Relationship between force, mass, and acceleration
+2. Voice onset time--what it means, what it reflects in terms of oral cavity volume and pressure, how it works in languages
+3. Boyle's law
+4. RMS amplitude
+5. Relationship between period and frequency
+6. Relationship between frequency and wavelength
+7. Glottal spectrum
+8. Amplitude rolloff of glottal spectrum
+9. Organization of basilar membrane
+10. Resonances of closed and open tubes
+11. Acoustic characteristics of voicing
+12. Narrow vs. wide-band spectral representation
+13. The process of audition
+14. Theories of speech perception
+15. Categorical perception--what it means, evidence from consonants
+16. Acoustic features of consonants
+17. Problems of speech perception 
+18. The process of sound transduction to the inner ear
+19. Ear anatomy
+20. Theories of phonation/vocal fold oscillation
+21. Conversion from absolute intensity to dB 
