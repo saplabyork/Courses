@@ -32,7 +32,7 @@ Here are some of the concepts that will definitely be on the test:
 6. Relationship between frequency and wavelength [Lec 1](lecture1.html#Wavelength)
 7. Glottal spectrum [Lec 8](lecture8.html#Spectrum)
 8. Amplitude rolloff of glottal spectrum
-9. Organization of basilar membrane [Lec 10](lecture8.html#Spectrum)
+9. Organization of basilar membrane [Lec 10](lecture10.html#Basilar_membrane)
 10. Resonances of closed and open tubes [Lec 5](lecture5.html#Tube_resonance)
 11. Acoustic characteristics of voicing [Lec 13](lecture13.html#Trading_relationships)
 12. Narrow vs. wide-band spectral representation [Lec 12](lecture12.html#The_spectrogram)
