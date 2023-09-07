@@ -82,7 +82,7 @@ If you cannot attend the scheduled office hour, contact me to arrange another ti
 The course will have three homework assignments, which should be submitted on the date it is due via the eClass submission module. The assignments are designed to allow you to become familiar with core concepts, problems, and research methods/approaches (i.e., Praat) that are critically important in speech science.
 
 ### Quizzes
-There will be three quizzes over the course of the term. Quizzes will be on Thursdays and during the first 15 minutes of the class period. Be on time! Each quiz will cover material from the previous two weeks of class. **There will be no make-up quizzes**.
+There will be two quizzes over the course of the term. Quizzes will during the first 15 minutes of the class period. Be on time! Each quiz will cover material from the previous two weeks of class. **There will be no make-up quizzes**.
 
 ## Tests
 There will be two tests in this course, one at Midterm and one Final Exam. The tests will be mostly multiple-choice with some possible short answer questions testing your knowledge of both book and lecture content. You are responsible for reading all assigned material (book chapters and additional readings) as well as anything that may be presented in lectures.
@@ -103,7 +103,7 @@ In the period between the last day to drop a course without receiving a grade an
 
 | Week | Date | Lecture | Topic                               | Reading | Tests/Due    |
 |------|------|---------|-------------------------------------|---------|--------------|
-| -    | 9/07 | 1       | Intro/Nature of Sound               | Ch.1    |              |
+| 0    | 9/07 | 1       | Intro/Nature of Sound               | Ch.1    |              |
 | 1    | 9/12 | 1       | Nature of Sound                     | Ch.1    |              |
 |      | 9/14 | 2       | Pure and complex sounds             | Ch.1    |              |
 | 2    | 9/19 | 3       | Attributes of sound                 | Ch.1    |              |
