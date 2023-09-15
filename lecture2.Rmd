@@ -137,7 +137,7 @@ What is the frequency of the Middle C piano note above? You can calculate it fro
 <div class="radio">
   <label>
     <input type="radio" name="question01" id="opt3" value="262.23kHz" onclick="check_answer()">
-    262Hz 
+    262.23kHz 
   </label>
 </div>
 <div class="radio">
