@@ -203,7 +203,12 @@ If we say that a sound has an intensity of $10^{-6} W/m^2$ we're actually referr
 
 The intensities affecting percepts of loudness are very small. Consider the fact that the "threshold" of human hearing, the intensity required for a 1kHz tone to be just audible, is 0.000000000001 Watts over a square meter. This is extremely inconvenient to manipulate. As a convenience measure a scale called the *log scale* is used. The log scale can express extremely large or extremely small numbers using a more manipulable notation.
 
+<p align="center">
+  <img src="images/orders-of-mag.png">
+</p>
+\
 
+In the log scale the powers of 10 are "orders of magnitude." The orders of magnitude is how many zeros are in the number, so 10000 has an order of magnitude of 4 or $10^{4}$. 0.0001 likewise has four zeros, but it is below one, so represented in the log scale with a negative order of magnitude or $10^{-4}$. 
 
 Notice in the example above a base of 10 is raised to the -6 power. When we express a sound's intensity as a ratio of absolute intensity a reference, the base 10 becomes redundant. The exponent to which the base 10 is raised is a logarithm, so $log_{10}10^2$ = 2 or $log_{10}10^{-5}$ = -5, etc. So instead of expressing relative intensity as the ratio of two base 10 intensities (the absolute and reference), we can just as well express it as the log~10~ of the ratio of two intensities. 
 
