@@ -1,0 +1,43 @@
+---
+title: "MT LING 2200 F23 stats"
+author: "Chandan Narayan"
+date: "2023-10-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Midterm scores distribution
+
+Here is a distribution of the midterm scores for LING2200 F2023:
+
+```{r echo=FALSE}
+data <- read.csv("F2023_LING2200_MT_stats.csv")
+class(data$percentage)
+library(ggplot2)
+plot <- ggplot(data, aes(x=percentage)) + geom_histogram(data=subset(data,percentage > 0.9), fill="lightblue", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.8 & percentage <= 0.89), fill="darkgreen", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.7 & percentage <= 0.79), fill="orange", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.6 & percentage <= 0.69), fill="pink", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.5 & percentage <= 0.59), fill="purple", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.0 & percentage <= 0.49), fill="red", bins=20)
+```
+
+
+```{r data, echo=FALSE}
+plot + theme_bw()
+```
+
+Light blue = A+ 
+
+Green = A
+
+Orange = B
+
+Pink = C
+
+Purple = D
+
+Red = F
