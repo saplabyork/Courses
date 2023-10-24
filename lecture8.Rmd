@@ -31,7 +31,7 @@ The most widely accepted theory explaining the nature of vocal fold vibration or
 
 The myoelastic/aerodynamic theory of phonation was first described by the Dutch speech scientist [van den Berg](https://en.wikipedia.org/wiki/Janwillem_van_den_Berg) in 1958. It basically states that vocal folds open up due to sub-glottal pressure and close due to elastic and aerodynamic pressures. But that's too simplistic. Here are the specific steps:
 
-1. Musicular activity causes the arytenoids so that the vocal processes come together thereby positioning the vocal folds close together (adduction)
+1. Muscular activity causes the arytenoids to rotate causing the vocal processes come together thereby positioning the vocal folds close together (adduction)
 
 2. Sub-glottal pressure (air pressure below the vocal folds) increases until the vocal folds are forced apart.
 
@@ -66,7 +66,7 @@ So basically, the elastic and Bernoulli forces drive the vocal folds together, a
 </p>
 \
 
-These models are good but probably pale in comparison to the actual dynamics of the vocal fold separation, especially with respect to the different aspects of the vocal folds moving at different times. People who *reall* study vocal fold dynamics often use 16-mass models to describe its movement!
+These models are good but probably pale in comparison to the actual dynamics of the vocal fold separation, especially with respect to the different aspects of the vocal folds moving at different times. People who *really* study vocal fold dynamics often use 16-mass models to describe its movement!
 
 ## Phonation Threshold
 
