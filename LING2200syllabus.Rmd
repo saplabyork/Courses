@@ -122,6 +122,7 @@ In the period between the last day to drop a course without receiving a grade an
 |      | 11/2 | 10      | Audition: Ear anatomy               | Ch.8    |              |
 | 8    | 11/07 | 11      | General auditory perception         | Ch.8    |              |
 |      | 11/09| 12      | Spectrogram lab                     |         |              |
+|      |      |         | Dadeleh Bldg 2027+2032              |         |              |
 | 9    | 11/14| 13      | Consonant perception                | Ch.8,6  |   Quiz 2     |
 |      | 11/16| 14      | Hearing loss, speech perception     | Ch.6    | Assignment 2 |
 | 10   | 11/21| 15      | Motor control, production           | Ch.9    |              |
