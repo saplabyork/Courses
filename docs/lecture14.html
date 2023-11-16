@@ -13,7 +13,7 @@
 
 <title>Hearing loss and speech perception</title>
 
-<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -405,7 +405,7 @@ div.tocify {
 <p>Before we start today’s lecture, let’s look at your vowel space from
 Assignment 2.</p>
 <pre class="r"><code>library(ggplot2)
-data &lt;- read.csv(&quot;LING2200_vowels_2022.csv&quot;, header=TRUE)
+data &lt;- read.csv(&quot;LING2200_vowels_2023.csv&quot;, header=TRUE)
 vowel_space &lt;- ggplot(data, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
 vowel_space</code></pre>
 <p><img src="lecture14_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

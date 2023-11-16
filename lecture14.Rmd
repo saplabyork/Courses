@@ -28,7 +28,7 @@ Before we start today's lecture, let's look at your vowel space from Assignment 
 
 ```{r echo=TRUE}
 library(ggplot2)
-data <- read.csv("LING2200_vowels_2022.csv", header=TRUE)
+data <- read.csv("LING2200_vowels_2023.csv", header=TRUE)
 vowel_space <- ggplot(data, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
 vowel_space
 ```
