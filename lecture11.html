@@ -11,7 +11,7 @@
 
 
 
-<title>Hearing loss and speech perception</title>
+<title>General auditory perception</title>
 
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -394,7 +394,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Hearing loss and speech perception</h1>
+<h1 class="title toc-ignore">General auditory perception</h1>
 
 </div>
 
@@ -404,147 +404,150 @@ div.tocify {
   font-size: 12pt;
 }
 </style>
-<hr />
-<p>Before we start today’s lecture, let’s look at your vowel space from
-Assignment 2.</p>
-<pre class="r"><code>library(ggplot2)
-data_23 &lt;- read.csv(&quot;LING2200_vowels_2023.csv&quot;, header=TRUE)
-vowel_space_23 &lt;- ggplot(data_23, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
-vowel_space_23</code></pre>
-<p><img src="lecture14_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<hr />
-<div id="hearing-loss-speech-perception" class="section level1">
-<h1>Hearing loss, speech perception</h1>
-<p>A typically developing human will acquire the fundamental aspects of
-their language by the age of 2-4 years old, with the phonetic system
-taking shape by the end of their first year. For this to happen, the
-auditory system (and consequently perception) must be relatively normal
-or uninterrupted. But what are the consequences for speech perception
-and language when audition is somehow impaired?</p>
-<p>There are many types of hearing loss, that either center around
-conduction of sound energy (where something is amiss in the outer or
-middle ear, like wax buildup or ear infection) or sensorineural deficits
-(where there is a pathology in the inner ear or auditory nerve, think
-extreme amplitude exposure causing damage to hair cells). Sometimes both
-conductive and sensorineural deficits might contribute to the hearing
-impairment. Hearing loss is characterized on a scale from mild to
-profound based on the amplitude loss relative to a normally functioning
-ear. A mild loss might mean a decrease in amplitude from 25 to 40dB,
-with a profound loss being a decrease upwards of 90-100dB. Different
-types of hearing loss might be further characterized by the envelope of
-frequency bands affected (looking a lot like the filters we discussed
-earlier in the course).</p>
-<div id="diagnosis" class="section level2">
-<h2>Diagnosis</h2>
-<p>There are three instrumental techniques that clinicians might employ
-to diagnose hearing loss:</p>
-<ol style="list-style-type: decimal">
-<li><p>Immittance audiometry: Used to diagnose middle ear problems.
-<strong>Immittance</strong> is a measure of how easily can be set into
-vibration by a driving force <span
-class="math inline">\(\rightarrow\)</span> made up of “impedance” and
-“admittance.” Impedance describes a system’s opposing a flow of energy
-and is measured in <em>ohms</em>. Admittance is the opposite, and
-measures how easily energy is transmitted through a system (measured in
-<em>mhos</em>, get it? the reverse of “ohms”). Admittance is tested
-using <strong>tympanometry</strong>, which measures how air pressure in
-the EAM is admitted to the middle ear through the TM.</p></li>
-<li><p>Otoacoustic emmisions (OAE) testing: OAEs are very very
-low-intensity sounds that <em>originate</em> in the cochlea as a result
-of outer hair cells shearing the tectorial membrane from an incoming
-sound. The outgoing “sound” resulting from the moving outer hair cells
-are transmitted backwards through the stapes to the TM and out through
-the EAM! There are two types of OAEs, spontaneous and evoked.</p></li>
-<li><p>Auditory brain stem response (ABR): ABR measures the electrical
-activity in the brain that occurs within 10ms following the presentation
-of an auditory stimulus. The ABR is used to measure latencies between
-stimulation presentation and auditory nerve activity and amplitude of
-the signal.</p></li>
-</ol>
+<table>
+<tbody>
+<tr class="odd">
+<td>So far we’ve been discussing <em>physical</em> phenomena associated
+with speech and hearing: acoustics, anatomy, respiration, and audition.
+What happens after the hair cells embedded in the Organ of Corti are
+fired at different frequencies and the electrical impulse is sent to the
+brain via the auditory nerve?</td>
+</tr>
+</tbody>
+</table>
+<div id="problems-of-speech-perception" class="section level1">
+<h1>Problems of speech perception</h1>
+<p>The previous lectures described the physical aspects of speech
+<em>hearing</em>. Once the brain is involved, it becomes difficult to
+separate the low-level hearing from higher-level <em>perception</em>.
+(Low-level <span class="math inline">\(\rightarrow\)</span> relates to
+the translation of physical features of the sound; High-level <span
+class="math inline">\(\rightarrow\)</span> affected by factors
+including, and beyond the physical features of the sound, like the
+nature of your own language.)</p>
+<p>The brain takes the various physical features of speech (like the
+duration, the formant structure, etc.) and <em>processes</em> the sound
+more or less holistically (i.e., as a whole), thereby assigning values
+such as “phoneme”, or “syllable”, or “word” to the sound. Speech
+perception suffers from two fundamental problems that have animated the
+field for about 70 years.</p>
+<div id="lack-of-invariance" class="section level2">
+<h2>Lack of invariance</h2>
+<p>The first problem of speech perception, the “lack of invariance”,
+reveals that there is no one-to-one correspondence between the speech
+signal and the percept. Here’s an example, examine the two spectrograms
+below. The spectrogram on the left is the word “key” and on the left
+“coo,” both of which begin with the sound /k/, <a
+href="sounds/ki.wav">left sound</a> and <a href="sounds/ku.wav">right
+sound</a>.</p>
+<p align="center">
+<img src="images/keycoo.png" width="60%%" height="60%">
+</p>
+<p>The arrows point to the broad band noise associates with the
+aspiration in a stop consonant at the beginning of a syllable. This is
+essentially what we hear when we hear a /k/, but if you examine the
+spretrograms, where is the /k/? It looks different in both the images,
+yet we perceive them both as a /k/. This is the lack of invariance
+problem, or put another way, speech sounds are characterized by
+variance.</p>
 </div>
-<div id="speech-perception" class="section level2">
-<h2>Speech perception</h2>
-<div id="articulation-index" class="section level3">
-<h3>Articulation index</h3>
-<p>It’s important to understand the practical ramificaitons of hearing
-loss in the individual, that is, how is the recognition and perception
-of speech affected by patholgies of the ear. The most basic techniques
-to assess speech perception in cases of hearing loss involve presenting
-the subject with speech in various types of noise. Clinicians might use
-an <strong>Articulation Index</strong> (AI), which divides the speech
-spectrum into 20 adjacent bands of frequencies, each of which
-contributes 5% to the overall intelligibility of the speech signal.
-Presenting noise in various bands of speech give the researcher a
-measure of the subject’s speech recognition. Listeners are scored based
-onn how much noise can be tolerated in the signal before it becomes
-unrecognizable. Typically isolated words are more susceptible to noise,
-while words in sentences are less affected, suggesting that context
-matters→ so a low recognition score for individual words may still have
-a high score for sentences. Why?</p>
+<div id="segmentation-problem" class="section level2">
+<h2>Segmentation problem</h2>
+<p>The second problem of speech perception is broadly related to the
+first, and relates to the fact that the speech stream does not come
+chunked into smaller units like words, syllables, phonemes. Despite the
+lack of separation, we can recover the chunks effortlessly. Consider the
+acoustic waveform of this sentence, displayed below.</p>
+<p align="center">
+<img src="images/consider.png" width="60%%" height="60%">
+</p>
+<p>The words run into each other and a casual examination of the
+resulting waveform reveals that it’s very difficult to determine where
+one sound or word ends and the other ends. How do we nonetheless
+perceive different words and different syllables and phonemes?
+<strong>Coarticulation</strong> is inherent in the signal as speakers
+optimize their speech to provide the listener as much information as
+possible in a given time while minimizing how much their articulators
+have to move.</p>
 </div>
-<div id="phonetic-transcription" class="section level3">
-<h3>Phonetic transcription</h3>
-<p>A very simple way to assess the language effects of hearing loss is
-by transcribing the phones subjects recognize. For example, clinicians
-can assess whether certain consonants are more accurately perceived in
-particular word positions or whether certain acoustically similar sounds
-are misperceived or exchanged for one another. While the technique is
-simple to administer, it is quite naive and misses a lot of underlying
-generalizations for why someone might not be hearing certain sounds or
-features; though this can be overcome by using synthetic speech to
-examine particular features that cause problems for the listener.</p>
-</div>
-<div id="phoneme-recognition" class="section level3">
-<h3>Phoneme recognition</h3>
-<p>Hearing loss can affect both the <strong>audibility</strong> of a
-speech sound, that is the ability to detect whether or not a signal is
-present, and the discrminability of a speech sound or whether or not a
-speech sound is discriminated The <em>suprathreshold</em> of audibility
-or recognition need not imply that the sound is accurately discriminated
-by the subject. For example, suppose the subject has high-frequency
-hearing loss, affecting noisy consonants like fricatives, they might be
-able to recognize that a fricative sound is present, but not able to
-tell whether it is a /s/ or a /f/.</p>
-<p>The acoustic structure of vowels and consonants provide the listener
-with many sources of information about the identity of the speech
-segment. These sources of information, or acoustic <em>cues</em>, are
-oftentimes redundant. For example, phonological voicing can be conveyed
-using <a href="lecture13.html">voice-onset time</a> or fundamental
-frequency or the onset of F1. People use varying strategies in
-identifying consonants (or vowels) based on their acoustic cues,
-relfecting individual <em>cue weighting</em> strategies. These cue
-weightings might change over time or be adjusted depending upon
-competing information in the signal (like noise). Not all speech sounds
-are the same with respect to their perception by individuals with
-hearing impairment. Vowels are often discriminated by individuals with
-hearing loss due to redundancies in the signal, though children with
-high-frequency loss may show poor discrimination. With respect to
-consonants, listeners with hearing loss may be more challenged.
-Fricatives (as mentioned earlier) are characterized by high-frequency
-energy, and are often difficult to discriminate by hearing impaired
-individuals. Place-of-articulation cues are also difficult to perceive
-because the distinguishing spectral characteristics, generally the F2
-transition into the vowel, is <em>very</em> short, on the order of
-20-30ms.In order to compensate for hearing loss, individuals might
-compensate by reweighting acoustic characteristics. For example, normal
-hearing individuals might weight F2 transitions more than hearing
-impaired people, who might give more weight to duration cues.</p>
+<div id="solutions" class="section level2">
+<h2>Solutions?</h2>
+<p>Some theorists suggst that we’re not looking hard enough when we say
+there is a lack of invariance or that speech is highly coarticulated and
+therefore no “essential” features of the phoneme can be recovered. For
+example, in our “key coo” example above, the structure of the vowel
+formants <em>after</em> the “k” tell us about the consonant. They show
+up in a pattern such that F2 and F3 are close together. The structure of
+the formants immediately after the release of the consonant tell us
+about its place of articulation. Linguists have recovered something
+called <a
+href="https://link.springer.com/article/10.3758/BF03205495">“locus
+equations”</a> that pin point the placement and direction of vowel
+formant movements that capture various consonants.</p>
+<p>Others look to the dynamic variability itself, combined with
+contextual information (like the surrounding sounds, the nature of the
+word, the speed at which it’s uttered, etc.) is essentially what we
+decode when we perceive speech. In reality, it’s likely that listeners
+use any and all available strategies to recover the lingusitic message
+encoded in speech.</p>
 </div>
 </div>
-<div id="cochlear-implantation" class="section level2">
-<h2>Cochlear implantation</h2>
-<p>Over the past 30 years, radical new technologies have given hearing
-impaired individuals more access to the auditory world. <strong>Cochlear
-Implantation</strong> is a (<a
-href="https://youtu.be/O_O0HIHU6L4">sometimes controversial</a>)
-procedure that directly stimulates the auditory nerve and bypasses a
-person’s damaged ear (often cochlea). The device (receiver) is implanted
-into the cochlea (thereby stimulating the auditory nerve) and an
-external device (microphone, speech processor, transmitter and battery)
-is worn behind the ear. The receiver codes the incoming auditory signal
-and sends electrical impulses to electrodes stimulating the auditory
-nerve fibers.</p>
-<p><img src="images/cochlear_implant.png" /></p>
+<div id="vowel-perception" class="section level1">
+<h1>Vowel perception</h1>
+<p>We hinted earlier as to the role of <em>formants</em> in
+communicating the quality of a vowel, essentially revealing the sizes of
+the oral and pharyngeal cavities, which affect F1 and F2. Listeners can
+categorize a vowel sound with basically these two formants. Vowels are
+generally more intense than consonants <span
+class="math inline">\(\rightarrow\)</span> it’s really what we end up
+hearing when we listen to speech. The consonants are chaped by the
+vowels.</p>
+<p>But there is a problem: formant values overlap, considerably, so two
+different vowels might have very similar formants (F1 and F2). Consider
+the image below, which shows the formant values for various vowels from
+English as spoken by men, women, and children (the data are from the
+famous vowel survey of Peterson and Barney (1952)). ** Practice your
+vowels here: <a
+href="https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm">https://web.uvic.ca/ling/resources/ipa/charts/IPAlab/IPAlab.htm</a>
+**</p>
+<p align="center">
+<img src="images/PB.png" width="60%%" height="60%">
+</p>
+<p>Given the situation in the picture above, how would a listener
+perceive a vowel whose F1 and F2 overlaps with other vowels? One
+solution to the this problem suggests that absolute F1 and F2 measures
+don’t matter too much, but rather what’s important is the relationship
+between F1 and F2 (and F3). So each production of /i/ generally has a
+low F1 and a very high F2 and F3, regardless of who’s speaking. A
+somewhat similar theory suggests that the ratio of F2:F1 is what is
+important for vowel perception.</p>
+<p align="center">
+<img src="images/vowel_ratio.png" width="60%%" height="60%">
+</p>
+<p>In the vowel ratio table above, each vowel has very similar F2:F1
+ratios regardless of who is saying it, men (M), women (W), or children
+(C). Perhaps this number is recovered by the perceptual system in the
+brain when identifying vowels.</p>
+<div id="target-undershoot" class="section level2">
+<h2>Target undershoot</h2>
+<p>Related to the segmentation problem is the problem of <strong>target
+undershoot</strong>. The acoustic contrasts between vowels is reduced as
+a result of coarticulation. When speech gestures overlap, the result is
+that articulatory “targets” or ideal positions of the tongue, etc., may
+not be reached. Formant frequencies not reaching their targets results
+in the vowel becoming more “centralized” or more like schwa.</p>
+<p align="center">
+<img src="images/vowel_quad.png" width="40%%" height="40%">
+</p>
+<p>Some speakers have more undershoot than others. It may not really
+matter, however, because it turns out that listeners are really good at
+recovering vowel information even if there’s no information there! In a
+series of experiments with “silent centers”, or syllables with the
+middle portion of thevowel removed, listeners were able to identify the
+syllable solely by hearing the onsets and the offsets of the syllable.
+Listen to these two sounds:<a href="sounds/deed.wav">1</a>, <a
+href="sounds/dude.wav">2</a>. One is “dude”, the other is “deed”. Which
+is which?</p>
 </div>
 </div>
 
