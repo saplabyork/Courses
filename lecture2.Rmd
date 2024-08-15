@@ -23,7 +23,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 options(repos = list(CRAN="http://cran.rstudio.com/"))
 ```
 
-In this lecture we begin to  dive deeper into the *shape* of sound--how it looks if we were to plot the movement of air molecules, and how it starts to look different in different conditions.
+In this lecture we begin to dive deeper into the *shape* of sound--how it looks if we were to plot the movement of air molecules, and how it starts to look different in different conditions.
 
 ***
 

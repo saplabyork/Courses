@@ -29,7 +29,7 @@ output:
 # **Introduction to Speech and Language Sciences**
 
 Tuesdays & Thursdays, 10:00-11:30am\
-Bethune College Building, Rm. 230\
+Ross Building, Rm. S133\
 Instructor: [Chandan Narayan](https://ch-narayan.github.io)\
 Contact: [chandann@yorku.ca](mailto:chandann@yorku.ca)\
 [Course outline and schedule](LING2200syllabus.html)

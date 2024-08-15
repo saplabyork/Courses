@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.27)  29 NOV 2023 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.27)  29 NOV 2023 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fin.tex
-(./fin.tex
+**final.tex
+(./final.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -388,20 +388,8 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box49
 )
-(./fin.aux)
-Runaway argument?
-{5C3337365C3337375C303030325C303030315C3030302E5C3030305C303430 
-! File ended while scanning use of \BKM@entry.
-<inserted text> 
-                \par 
-l.74 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-\openout1 = `fin.aux'.
+No file final.aux.
+\openout1 = `final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
@@ -582,19 +570,19 @@ File: images/wide_narrow_fin.png Graphic file (type png)
 Package pdftex.def Info: images/wide_narrow_fin.png  used on input line 379.
 (pdftex.def)             Requested size: 469.75386pt x 216.80946pt.
 
-[9 <./images/wide_narrow_fin.png>] (./fin.aux)
+[9 <./images/wide_narrow_fin.png>] (./final.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 12554 strings out of 478994
- 191427 string characters out of 5858184
- 527715 words of memory out of 5000000
- 29659 multiletter control sequences out of 15000+600000
+ 12551 strings out of 478994
+ 191412 string characters out of 5858184
+ 523000 words of memory out of 5000000
+ 29658 multiletter control sequences out of 15000+600000
  458217 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,6n,88p,2923b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,6n,88p,2925b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 21/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-d
@@ -606,7 +594,7 @@ ocal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2021/texm
 f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb>
-Output written on fin.pdf (9 pages, 2287242 bytes).
+Output written on final.pdf (9 pages, 2287242 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  253 compressed objects within 3 object streams
