@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Outline/Schedule"
+      href: LING2200syllabus.html
     - text: "Lectures"
       menu:
         - text: "Lecture 1"
