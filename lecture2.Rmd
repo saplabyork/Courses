@@ -79,7 +79,7 @@ A sound can be composed of one or more frequencies $\rightarrow$ remember that t
 
 ## Pure tones
 
-If a sound consists of a single frequency it is called a **pure tone**. A pure tone can be described by **simple harmonic motion**, which is depicted as a sine wave, with a frequency, period, wavelength, etc. Here is an example of a [pure tone](sounds/440Hz.wav), one where one complete cycle of the wave repeats itself 440 times per second (or with a frequency of 440 Hz). Below is an image of the waveform depicting the 440 (I did this in Praat...can you?):
+If a sound consists of a single frequency it is called a **pure tone**. A pure tone can be described by **simple harmonic motion**, which is depicted as a sine wave, with a frequency, period, wavelength, etc. We never hear pure tones in nature, but we can create them using Praat, which transforms the mathematical description of the wave into an audible sound. Here is an example of a [pure tone](sounds/440Hz.wav), one where one complete cycle of the wave repeats itself 440 times per second (or with a frequency of 440 Hz). Below is an image of the waveform depicting the 440 (I did this in Praat...can you?):
 
 <p align="center">
   <img src="images/440sine.png" width="70%" height="70%">
