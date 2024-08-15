@@ -1,0 +1,10 @@
+data <- read.csv("F2023_LING2200_MT_stats.csv")
+class(data$percentage)
+library(ggplot2)
+plot <- ggplot(data, aes(x=percentage)) + geom_histogram(data=subset(data,percentage > 0.9), fill="lightblue", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.8 & percentage <= 0.89), fill="darkgreen", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.7 & percentage <= 0.79), fill="orange", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.6 & percentage <= 0.69), fill="pink", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.5 & percentage <= 0.59), fill="purple", bins=20) +
+  geom_histogram(data=subset(data,percentage >= 0.0 & percentage <= 0.49), fill="red", bins=20)
+plot + theme_bw()
