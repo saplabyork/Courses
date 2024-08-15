@@ -1,6 +1,6 @@
 name: "LING2200"
 navbar:
-  title: "LING2200"
+  title: "LING2200 - Intro to Speech and Language Sciences"
   left:
     - text: "Home"
       href: index.html

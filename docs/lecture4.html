@@ -13,7 +13,7 @@
 
 <title>Lab 1: Pure and Complex tones</title>
 
-<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -315,7 +315,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">LING2200</a>
+      <a class="navbar-brand" href="index.html">LING2200 - Intro to Speech and Language Sciences</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -372,6 +372,9 @@ div.tocify {
 </li>
 <li>
   <a href="lecture16.html">Lecture 16</a>
+</li>
+<li>
+  <a href="lecture17.html">Lecture 17</a>
 </li>
 <li>
   <a href="final_review.html">Final test review</a>
@@ -443,8 +446,8 @@ you to do this using a fill-in window were you specify the frequency and
 hit a button and there you go. <em>But</em> we’re not going to do it
 this way. Suppose we want to make a 3 second 377Hz tone:</p>
 <ol style="list-style-type: decimal">
-<li>From the Praat Objects window &gt; New &gt; Create sound from
-formula<br />
+<li>From the Praat Objects window &gt; New &gt; Sound &gt; Create sound
+from formula<br />
 This brings up the a window that looks like this:</li>
 </ol>
 <p align="center">
@@ -519,7 +522,7 @@ true starting point of a cycle. This would be the so-called “zero
 crossings” of the wave. The arrows in the example above are pointing the
 the onset and offset of one cycle of the wave, each at the zero
 crossing. You can get the cursor exactly at the zero crossing by going
-to Select &gt; “Move start of selection to nearest zero crossing”, and
+to Sound &gt; “Move start of selection to nearest zero crossing”, and
 then do the same for the end of the selection.</p></li>
 <li><p>Can you confirm whether the synthesized tone is actually 377Hz?
 <span class="math inline">\(\rightarrow\)</span> remember, the frequency
@@ -538,7 +541,7 @@ aperiodic).</p>
 <li><p>The software can compute a Fourier analysis of the periodic sound
 and determine what the component frequencies are and present them in a
 spectrum view. Put your cursor at a zero crossing at the start of a
-cycle in your 377Hz wave. In your View and edit window go to Spectrum
+cycle in your 377Hz wave. In your View and edit window go to Spectrogram
 &gt; View spectral slice. Examine the Spectrum. Notice that it’s not a
 single line, like we saw in our earlier lectures, rather it’s a curve.
 Praat computes an estimated representation of the spectrum (i.e., not
@@ -607,7 +610,7 @@ waveform should look like this (from the picture window):</li>
 </p>
 <p><br />
 </p>
-<p>Oila! It looks like the wave has 10 periods in 0.05s, so 10/0.05 =
+<p>Voila! It looks like the wave has 10 periods in 0.05s, so 10/0.05 =
 200Hz! So if you play this sound, it will sound complex, but it will
 have the same pitch of a pure 200Hz tone.</p>
 <div id="phone-exercise" class="section level3">
