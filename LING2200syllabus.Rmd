@@ -103,21 +103,21 @@ In the period between the last day to drop a course without receiving a grade an
 
 | Week | Date | Lecture | Topic                               | Reading | Tests/Due    |
 |------|------|---------|-------------------------------------|---------|--------------|
-| 0    | 9/07 | 1       | Intro/Nature of Sound               | Ch.1    |              |
-| 1    | 9/12 | 1       | Nature of Sound                     | Ch.1    |              |
-|      | 9/14 | 2       | Pure and complex sounds             | Ch.1    |              |
-| 2    | 9/19 | 3       | Attributes of sound                 | Ch.1    |              |
-|      | 9/21 | 4       | Praat basics (Lab 1)                | Ch.1    |  Quiz 1      |
+| 0    | 9/05 | 1       | Intro/Nature of Sound               | Ch.1    |              |
+| 1    | 9/10 | 1       | Nature of Sound                     | Ch.1    |              |
+|      | 9/12 | 2       | Pure and complex sounds             | Ch.1    |              |
+| 2    | 9/17 | 3       | Attributes of sound                 | Ch.1    |              |
+|      | 9/19 | 4       | Praat basics (Lab 1)                | Ch.1    |  Quiz 1      |
 |      |      |         | Dadeleh Bldg 2027+2032              |         |              |
-| 3    | 9/26 | 5       | Acoustic resonance                  | Ch.2    |              |
-|      | 9/28 | 6       | Respiration                         | Ch.3    | Assignment 1 |
-| 4    | 10/03| 7       | Laryngeal bones and muscles         | Ch.4    |              |
-|      | 10/05|         | Review                              |         |              |
-|      | 10/10|         | **Reading week**                    |         |              |
-| 5    | 10/17|         | **Midterm**                         |         |              |
-|      | 10/19|         | No class                            |         |              |
-| 6    | 10/24| 8       | Voice quality                       | Ch.4    |              |
-|      | 10/26| 9       | Articulation and resonance          | Chs.6,7 |              |
+| 3    | 9/24 | 5       | Acoustic resonance                  | Ch.2    |              |
+|      | 9/26 | 6       | Respiration                         | Ch.3    | Assignment 1 |
+| 4    | 10/01| 7       | Laryngeal bones and muscles         | Ch.4    |              |
+|      | 10/03|         | Phonation                           |         |              |
+|5     | 10/08|         | Phonation cont'd                    |         |              |
+|      | 10/10|         | MT REVIEW                         |         |              |
+|      | 10/15,17|      | No class-Reading week              |         |              |
+| 6    | 10/22|        | Midterm                       | Ch.4    |              |
+|      | 10/24|        | No Class                         | Chs.6,7 |              |
 | 7    | 10/31 | 9,10    | Audition                            | Chs.7,8 |              |
 |      | 11/2 | 10      | Audition: Ear anatomy               | Ch.8    |              |
 | 8    | 11/07 | 11      | General auditory perception         | Ch.8    |              |
