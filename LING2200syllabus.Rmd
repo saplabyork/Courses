@@ -120,15 +120,15 @@ In the period between the last day to drop a course without receiving a grade an
 |      | 10/24|        | No Class                             | Chs.6,7 |              |
 | 7    | 10/29 | 9,10    | Audition                            | Chs.7,8 |              |
 |      | 10/31 | 10      | Audition: Ear anatomy               | Ch.8    |              |
-| 8    | 11/07 | 11      | General auditory perception         | Ch.8    |              |
-|      | 11/09| 12      | Spectrogram lab                     |         |              |
+| 8    | 11/05 | 11      | General auditory perception         | Ch.8    |              |
+|      | 11/07| 12      | Spectrogram lab                     |         |              |
 |      |      |         | Dadeleh Bldg 2027+2032              |         |              |
-| 9    | 11/14| 13      | Consonant perception                | Ch.8,6  |   Quiz 2     |
-|      | 11/16| 14      | Hearing loss, speech perception     | Ch.6    | Assignment 2 |
-| 10   | 11/21| 15      | Motor control, production           | Ch.9    |              |
-|      | 11/23| 16      | Speech perception theories          | Ch.12   |              |
-| 11   | 11/28| 17      | Building words                      | Ch.12   |              |
-|      | 11/30|         | Review                              |         |              |
-| 12   | 12/5 |         | Final Exam                          |         |              |
+| 9    | 11/12| 13      | Consonant perception                | Ch.8,6  |   Quiz 2     |
+|      | 11/14| 14      | Hearing loss, speech perception     | Ch.6    | Assignment 2 |
+| 10   | 11/19| 15      | Motor control, production           | Ch.9    |              |
+|      | 11/21| 16      | Speech perception theories          | Ch.12   |              |
+| 11   | 11/26| 17      | Building words                      | Ch.12   |              |
+|      | 11/28|         | Review                              |         |              |
+| 12   | 12/3 |         | Final Exam                          |         |              |
 
 
