@@ -24,7 +24,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ----
 
-#  The myoelastic/aerodynamic theory of phonation
+#  The myoelastic/aerodynamic theory of phonation [Ch.5](docs/ch5-Phonation.pdf)
 
 In our last lecture we noted the complexities involved in the movement of [vocal folds](https://www.youtube.com/watch?v=yn12x2SJrNM) given the highly variable nature of their composition as well as their elongation and position governed by muscular control of the arytenoids and associated muscles. 
 The most widely accepted theory explaining the nature of vocal fold vibration or oscillation is called the **myoelastic** theory, which explains oscillation as the interaction between muscle forces (*myo-*), tissue elasticity, and air pressure flow. 
