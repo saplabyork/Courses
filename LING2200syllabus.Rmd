@@ -117,11 +117,11 @@ In the period between the last day to drop a course without receiving a grade an
 |5     | 10/08| 8       | Phonation disorders                 |         |              |
 |      | 10/10|         | MT REVIEW                           |         |              |
 |      | 10/15,17|      | No class-Reading week               |         |              |
-| 6    | 10/22|        | Midterm                              |         |              |
-|      | 10/24|        | No Class                             | Chs.6,7 |              |
-| 7    | 10/29 | 9,10    | Audition                            | Chs.7,8 |              |
-|      | 10/31 | 10      | Audition: Ear anatomy               | Ch.8    |              |
-| 8    | 11/05 | 11      | General auditory perception         | Ch.8    |              |
+| 6    | 10/22|         | Midterm                             |         |              |
+|      | 10/24|         | No Class                            | Chs.6,7 |              |
+| 7    | 10/29| 9,10    | Audition                            | Chs.7,8 |              |
+|      | 10/31| 10      | Audition: Ear anatomy               | Ch.8    |              |
+| 8    | 11/05| 11      | General auditory perception         | Ch.8    |              |
 |      | 11/07| 12      | Spectrogram lab                     |         |              |
 |      |      |         | Dadeleh Bldg 2027+2032              |         |              |
 | 9    | 11/12| 13      | Consonant perception                | Ch.8,6  |   Quiz 2     |
