@@ -80,7 +80,7 @@ Sound is essentially changes in air pressure that results from some sort of dist
 Molecules of air move in a random pattern, called [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) and collide with each other and other objects at a relatively constant pressure.
 
 <p align="center">
-  <img width="200" height="200" src="https://i.pinimg.com/originals/15/38/66/153866beb99a7ec456ae1e6b0d643aea.gif">
+  <img width="200" height="200" src="https://i.pinimg.com/originals/15/38/66/153866beb99a7ec456ae1e6b0d643aea.gif"> <img width="200" height="200" src="https://water.lsbu.ac.uk/water/images/Brownianmotion.gif">
 </p>
 
 # Airflow
