@@ -162,7 +162,7 @@ With SHM, there is acceleration of an object through the "zero point" or equilib
 </p>
 
 ## Frequency
-One back and forth movement through the equilibriam point constitutes one *cycle* of vibration.When describing sound, these cycles refer to the movement of air molecules moving back and forth. When the molecule is set into motion (from some disturbance, like the movement of the vocal folds or the slamming of a door), it is propelled, reaches some maximum, travels back through its original starting point (equilibrium) and proceeds again in the direction opposite the one it initially travelled, then back again to equilibrium (one complete cycle). 
+One back and forth movement through the equilibrium point constitutes one *cycle* of vibration.When describing sound, these cycles refer to the movement of air molecules moving back and forth. When the molecule is set into motion (from some disturbance, like the movement of the vocal folds or the slamming of a door), it is propelled, reaches some maximum, travels back through its original starting point (equilibrium) and proceeds again in the direction opposite the one it initially travelled, then back again to equilibrium (one complete cycle). 
 
 This movement results in pressure changes. A cycle when describing sound is:
 
