@@ -453,7 +453,7 @@ class="math inline">\(sin(\frac{2\pi}{t}x)\)</span>.</p>
 <p>OK, so let’s say we want to create a pure tone in Praat. Praat allows
 you to do this using a fill-in window were you specify the frequency and
 hit a button and there you go. <em>But</em> we’re not going to do it
-this way. Suppose we want to make a 3 second 377Hz tone:</p>
+this way. Suppose we want to make a 3 second 350Hz tone:</p>
 <ol style="list-style-type: decimal">
 <li>From the Praat Objects window &gt; New &gt; Sound &gt; Create sound
 from formula<br />
@@ -476,12 +476,13 @@ In this case, let’s change it “377Hz”</li>
 <li><p>The most important field is “Formula.” Notice it says “1/2 *
 sin(2 * pi * 377 * x)” by default (the spaces don’t matter). It also
 says “+ randomGauss(0,0.1)”, which you can select and delete. What that
-does is add random noise to the pure tone signal.</p></li>
-<li><p>Compare the formula to the in the Formula field to the one above.
-Notice the similarities? The default formula has A = 1/2 and a frequency
-of 377Hz. You can change the frequency to anything you want, but for now
-let’s just work with the default. Name the object “377Hz.”</p></li>
-<li><p>This will put an object called “377Hz” in your Objects
+does is add random noise to the pure tone signal. Change the Frequency
+to 350 (from 377)</p></li>
+<li><p>Compare the formula in Formula field to the one above. Notice the
+similarities? The default formula has A = 1/2 and a frequency of 350Hz.
+(You can change the frequency to anything you want). Name the object
+“350Hz.”</p></li>
+<li><p>This will put an object called “350Hz” in your Objects
 window.</p></li>
 </ol>
 <p align="center">
@@ -494,8 +495,8 @@ window.</p></li>
 that has two views: the top view is the waveform, and the bottom is the
 spectrogram (we’ll get to spectrograms soon)</p></li>
 <li><p>The waveform view doesn’t really look like a sine waveform like
-we’re used to seeing. That’s because it’s repeating itself 377 times per
-second and the window is showing 3 seconds (or 377 x 3) 1131 cycles. So,
+we’re used to seeing. That’s because it’s repeating itself 350 times per
+second and the window is showing 3 seconds (or 350 x 3) 1050 cycles. So,
 let’s zoom in to the waveform to see the individual contours of the
 waveform.</p></li>
 <li><p>Select a chunk of the image (using your mouse, click and drag).
@@ -533,7 +534,7 @@ the onset and offset of one cycle of the wave, each at the zero
 crossing. You can get the cursor exactly at the zero crossing by going
 to Sound &gt; “Move start of selection to nearest zero crossing”, and
 then do the same for the end of the selection.</p></li>
-<li><p>Can you confirm whether the synthesized tone is actually 377Hz?
+<li><p>Can you confirm whether the synthesized tone is actually 350Hz?
 <span class="math inline">\(\rightarrow\)</span> remember, the frequency
 is the number of cycles per second.</p></li>
 </ol>
@@ -566,7 +567,7 @@ bottom is a spectrum taken over the entire 3s of the wave:</p></li>
 <p><br />
 </p>
 <p>Notice that in the bottom image the curve is skinnier with a sharp
-peak (centered at 377Hz). This is because the program had more
+peak (centered at 350Hz). This is because the program had more
 “evidence” for the nature of the frequency. It’s basically computed the
 average frequency over 3s, while in the top image, it is only computing
 the frequency at a single point (which is the center of a 10ms
@@ -579,7 +580,7 @@ window. The picture window is where you can print your image and copy it
 and insert the file into a document. Let’s print the waveform and a
 spectrum in the picture window.</p>
 <ol style="list-style-type: decimal">
-<li>You should have your “Sound 377Hz” in the objects list. Suppose you
+<li>You should have your “Sound 350Hz” in the objects list. Suppose you
 want to print the first 10ms of the waveform in the picture window.
 Select your sound, then Click “Draw” &gt; Draw from the button on the
 right side of the Objects window. This will bring up a window with some
