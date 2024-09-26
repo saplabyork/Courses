@@ -65,12 +65,12 @@ Suppose we want to know what the resonant frequency is of a bottle that's slight
 $$
 F_0 = \frac{c}{2\pi} \sqrt{\frac{a}{VL}}
 $$
-...where **c** is the speed of sound in air (343m/s), **a** = the cross-sectional area of the spout, **V** = the volume of the container in L, and **L** is the length of the neck. Remember the area of a circle is $\pi(r^2)$, so for our hypothetical example, the area(a)=$3.14 * (\frac{0.02}{2})^2$ = 0.000314$m^2$. So...
+...where **c** is the speed of sound in air (330m/s), **a** = the cross-sectional area of the spout, **V** = the volume of the container in L, and **L** is the length of the neck. Remember the area of a circle is $\pi(r^2)$, so for our hypothetical example, the area(a)=$3.14 * (\frac{0.02}{2})^2$ = 0.000314$m^2$. So...
 $$
-F_0 = \frac{343m/s}{2\pi}\sqrt{\frac{0.000314m^2}{0.08m * 0.000355m^3}}
+F_0 = \frac{330m/s}{2\pi}\sqrt{\frac{0.000314m^2}{0.08m * 0.000355m^3}}
 $$
-$\frac{343}{2\pi} = 54.59$, so..
-$$F_0=54.59 * 3.32$$ = **181.52 Hz**
+$\frac{330}{2\pi} = 52.52$, so..
+$$F_0=52.52 * 3.32$$ = **174.36 Hz**
 
 So, all of this is to say that objects have resonance properties and containers with air have acoustic resonance properties that reflect the size and shape of the container.
 
