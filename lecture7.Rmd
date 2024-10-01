@@ -144,6 +144,5 @@ The **ventricular folds** are also called the *false vocal folds* and lie inferi
 
 When we refer to "vocal folds" we're actually talking about the **true vocal folds**, the terms are interchangeable. The tru nature of the vocal folds are very complex and beyond the scope of this course. They're made of many layers of muscle, and mucous membranes. The **thyroarytenoid muscle** forms the main mass of the vocal folds. The structure and biomechanics of the true vocal folds arise from the the activation of the various joints they are connected to as well as the layers of varying stiffnes of the folds themselves. All of these variables combine to give rise to an individual's unique "voice." 
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=v9Wdf-RwLcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+Check out [this](https://www.youtube.com/watch?v=v9Wdf-RwLcs)
+
