@@ -23,14 +23,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 ----
-
-```{r echo=TRUE}
+# Class vowel space: F2024 edition
+```{r echo=FALSE}
 library(ggplot2)
 data_24 <- read.csv("LING2200_vowels_2024.csv", header=TRUE)
-vowel_space_24 <- ggplot(data_24, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
+vowel_space_24 <- ggplot(data_24, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse() + theme_minimal()
 vowel_space_24
 ```
 
+As you can see, we're pretty similar. There are some obvious measurement errors (look at that one [i] east of [u] territory!). Schwas are west of "hot", but close. In that case, what's going on with perception? How do we tell if someone is saying "hut" or "hot"? Are there secondary cues?
 
 # Models of production
  
