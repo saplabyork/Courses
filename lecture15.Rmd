@@ -24,6 +24,14 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ----
 
+```{r echo=TRUE}
+library(ggplot2)
+data_24 <- read.csv("LING2200_vowels_2024.csv", header=TRUE)
+vowel_space_24 <- ggplot(data_24, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse()
+vowel_space_24
+```
+
+
 # Models of production
  
  When we say "model" what do we mean? A model is a simplification of what we think is actually happening. Much like a model of a train, a model of of some behaviour is approximates many complexities, which are put into a perspective that is tractable, yet captures the major features of the *actual thing*. It allows us to better understand complex systems and behaviours.
