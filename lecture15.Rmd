@@ -27,7 +27,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```{r echo=FALSE}
 library(ggplot2)
 data_24 <- read.csv("LING2200_vowels_2024.csv", header=TRUE)
-vowel_space_24 <- ggplot(data_24, aes(x=F2, y=F1, label=Vowel)) + geom_text() + scale_x_reverse() + scale_y_reverse() + theme_minimal()
+vowel_space_24 <- ggplot(data_24, aes(x=F2, y=F1, label=Vowel)) + geom_text() + stat_ellipse(aes(group = Vowel)) + scale_x_reverse() + scale_y_reverse() + theme_minimal()
 vowel_space_24
 ```
 
