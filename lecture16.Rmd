@@ -61,9 +61,11 @@ There is some evidence for the link between perception and production in the dis
 
 Direct realism builds upon a theory of perception from the visual domain, and suggests we perceive objects and events directly (as a result of experience) rather than reconstructing or interpreting them from the sensory input to the brain. The events in the case of speech perception would be the acoustic signal, rather than the gestures that result in the acoustic signal. This is analogized in the visual domain $\rightarrow$ one sees a candy bar in its wrapper and knows exactly what it is, its weight, its texture, etc., even if occluded by another object, because they have experienced that candy bar before. This would be a different perception than for someone who has never encountered this candy bar before, as the same visual structure will be *seen* but perceived in a different way. 
 
+In some ways Direct Realism is very similar to the Motor Theory, but it does not rely on "replaying" the gesture that results in the acoustics like Motor Theory does. (Keep in mind that this is confusing for even professors who've been talking about it for years.)
+
 ### TRACE
 
-Connectionist models of production and perception are rooted in an understanding of the neural implementation of the processing and execution of behaviours. This is a fancy way of saying that the models resemble how researchers believe networks of neurons in the brain operate, that is, in a parallel but hierarchical way. Lower layers are stimulated by an incoming signal, activating features in that level, which in turn activate features in higher levels until a sound (or word) is recognized. The **TRACE** models is a connectionist model. 
+Connectionist models of production and perception are rooted in an understanding of the neural implementation of the processing and execution of behaviors. This is a fancy way of saying that the models resemble how researchers believe networks of neurons in the brain operate, that is, in a parallel but hierarchical way. Lower layers are stimulated by an incoming signal, activating features in that level, which in turn activate features in higher levels until a sound (or word) is recognized. The **TRACE** models is a connectionist model. 
 
 The layers or networks of units are the different levels of abstraction. The image below shows a basic TRACE model:
 
@@ -89,7 +91,7 @@ In this way, a fuzzy logic approach to speech perception suggests that speech ca
 
 ## Word Recognition Theories
 
-There is some overlap between theories of speech percepiton and high-level word recognition (we call it "high level" because the word level is an abstraction above the level of the sound). For example, TRACE and other PDP models very much encompass both speech and word recognition. But there are two historically important theories of word recognition that you should be familiar with: Logogen, and Cohort theory.
+There is some overlap between theories of speech perception and high-level word recognition (we call it "high level" because the word level is an abstraction above the level of the sound). For example, TRACE and other connectionist models very much encompass both speech and word recognition. But there are two historically important theories of word recognition that you should be familiar with: Logogen, and Cohort theory.
 
 ### Logogens
 
@@ -97,7 +99,7 @@ A **logogen** is a neural processing device associated with each word in an indi
 
 ### Cohort theory
 
-The **cohort theory** works in ways similar to PDP models, in that when a word is heard, unfolding in time,the various acoustic aspects of the signal initiate activation of word word forms. The initial sound of the incoming signal generates a "cohort" of phonological "neighbours", or words that begin with that initial sound. In the image below, the incoming "st-" sound activates all the words in the listener's lexicon beginning with that sequence. This is called the *Autonomous stage*, when the cohort is activated. 
+The **cohort theory** works in ways similar to connectionist models, in that when a word is heard, unfolding in time,the various acoustic aspects of the signal initiate activation of word word forms. The initial sound of the incoming signal generates a "cohort" of phonological "neighbors", or words that begin with that initial sound. In the image below, the incoming "st-" sound activates all the words in the listener's lexicon beginning with that sequence. This is called the *Autonomous stage*, when the cohort is activated. 
 
 <p align="center">
   <img src="images/Cohort.png" width="50%" height="50%">
