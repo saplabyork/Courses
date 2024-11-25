@@ -1,6 +1,6 @@
 ---
 title: "LING 2200 Final Test "
-author: Fall 2022
+author: Fall 2024
 date: /44pts
 output: pdf_document
 fontsize: 12pt
